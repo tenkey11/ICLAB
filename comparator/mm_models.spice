@@ -1,0 +1,30 @@
+* Mismatch-enabled copies of the gf180 wrappers (always on)
+.subckt nfet_03v3_mm d g s b w=1e-5 l=2.8e-7 nf=1 m=1 as=0 ad=0 ps=0 pd=0 nrd=0 nrs=0 par=1 dtemp=0 sa=0 sb=0 sd=0
+.param par_vth=0.007148
+.param par_k=0.007008
+.param par_l=1.5e-7
+.param par_w=-1e-7
+.param par_leff='l-par_l'
+.param par_weff='par*(w-par_w)'
+.param p_sqrtarea='sqrt((par_leff)*(par_weff))'
+.param var_k='0.7071*par_k*1e-06/p_sqrtarea'
+.param mis_k='agauss(0,var_k,1)'
+.param var_vth='0.7071*par_vth*1e-06/p_sqrtarea'
+.param mis_vth='agauss(0,var_vth,1)'
+m0 d g s b nfet_03v3 ad=ad as=as delvto='mis_vth' l=l m=m mulu0='1-mis_k' nf=nf nrd=nrd nrs=nrs pd=pd ps=ps sa=sa sb=sb sd=sd w=w
+.ends nfet_03v3_mm
+
+.subckt pfet_03v3_mm d g s b w=1e-5 l=2.8e-7 nf=1 m=1 as=0 ad=0 ps=0 pd=0 nrd=0 nrs=0 par=1 dtemp=0 sa=0 sb=0 sd=0
+.param par_vth=0.00666
+.param par_k=0.002833
+.param par_l=1.5e-7
+.param par_w=-1e-7
+.param par_leff='l-par_l'
+.param par_weff='par*(w-par_w)'
+.param p_sqrtarea='sqrt((par_leff)*(par_weff))'
+.param var_k='0.7071*par_k*1e-06/p_sqrtarea'
+.param mis_k='agauss(0,var_k,1)'
+.param var_vth='0.7071*par_vth*1e-06/p_sqrtarea'
+.param mis_vth='agauss(0,var_vth,1)'
+m0 d g s b pfet_03v3 ad=ad as=as delvto='mis_vth' l=l m=m mulu0='1-mis_k' nf=nf nrd=nrd nrs=nrs pd=pd ps=ps sa=sa sb=sb sd=sd w=w
+.ends pfet_03v3_mm

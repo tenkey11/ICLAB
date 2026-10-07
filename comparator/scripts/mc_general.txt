@@ -1,0 +1,42 @@
+name=s3 only_toplevel=false value="
+.control
+set rndseed = 12345
+set nruns = 200
+set vrg = 0.06
+set nbis = 10
+set tev = 9.8e-9
+
+shell rm -f vos_bis.txt
+
+repeat $nruns
+  reset
+  set lo = -$vrg
+  set hi = $vrg
+
+  repeat $nbis
+    let midv = (($lo) + ($hi))/2
+    set mid = $&midv
+    let hp = ($mid)/2
+    let hn = -($mid)/2
+    alter Vip dc = $&hp
+    alter Vim dc = $&hn
+
+    tran 10p $tev
+
+    let dfin = v(y)[length(v(y))-1] - v(x)[length(v(x))-1]
+    if $&dfin > 0
+      set hi = $mid
+    else
+      set lo = $mid
+    end
+    destroy all
+  end
+
+  let trip = (($lo) + ($hi))/2
+  let oor = abs(trip)/$vrg
+  echo $&trip $&oor >> vos_bis.txt
+  destroy all
+end
+shell python3 /home/vicente/iclab/comparator/scripts/hist.py vos_bis.txt -o vos_bis_hist.png
+.endc
+"
