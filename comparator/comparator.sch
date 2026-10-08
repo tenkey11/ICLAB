@@ -80,27 +80,21 @@ C {gnd.sym} -1145 395 0 0 {name=l3 lab=0}
 C {lab_pin.sym} -1145 335 0 0 {name=p3 sig_type=std_logic lab="VDD"}
 C {code_shown.sym} 452.5 -25 0 0 {name=s2 only_toplevel=false value="
 * transistor widths
-.param w1=5u 	k1=1 		* differential pair and tail
-.param w2=5u k2=2		* xc inv
-.param w3=0.22u			* reset switches
-.param w4=0.22u			* output inv
+.param w1=5u		k1=1 		; input pair and tail
+.param w2=5u		k2=2		; xc inv nmos
+.param w5=\{w2*k2\}			; xc inv pmos
+.param w3=0.22u				; switches
+.param w4=0.22u				; out inv
 
 .param vdd=3.3
 .param vcm=\{vdd/2\}
-.param fclk=100e6
+.param fclk=50e6
 .param tper=\{1/fclk\}
 .param tr=100p
 .param tdly=\{tper/2\}
 .param ncyc_ramp=150
 .param vr=60m
 .param tstop=\{ncyc_ramp*tper\}
-
-.csparam tper=\{tper\}
-.csparam tdly=\{tdly\}
-.csparam tstop=\{tstop\}
-.csparam vr=\{vr\}
-.csparam vdd=\{vdd\}
-.csparam ncyc_ramp=\{ncyc_ramp\}
 
 .param sw_stat_mismatch=1
 .options reltol=1e-6 abstol=1e-14 vntol=1e-9
@@ -149,7 +143,7 @@ spiceprefix=X
 }
 C {symbols/pfet_03v3.sym} -475 -435 0 1 {name=M4
 L=0.28u
-W=\{w2*k2\}
+W=0.22u
 nf=1
 m=1
 ad="'int((nf+1)/2) * W/nf * 0.18u'"
@@ -191,7 +185,7 @@ spiceprefix=X
 }
 C {symbols/pfet_03v3.sym} -305 -435 0 0 {name=M7
 L=0.28u
-W=\{w2*k2\}
+W=0.22u
 nf=1
 m=1
 ad="'int((nf+1)/2) * W/nf * 0.18u'"
@@ -346,46 +340,68 @@ C {vdd.sym} -750 -905 0 0 {name=l5 lab=VDD}
 C {gnd.sym} -750 -720 3 1 {name=l17 lab=0}
 C {gnd.sym} -750 -690 0 0 {name=l18 lab=0}
 C {lab_pin.sym} -825 -800 0 0 {name=p19 sig_type=std_logic lab=X}
-C {code_shown.sym} 1882.5 -40 0 0 {name=s3 only_toplevel=false value="
+C {code_shown.sym} 1522.5 -140 0 0 {name=s3 only_toplevel=false value="
 .control
 set nruns = 200
 set vrg = 0.06
-set nbis = 10
-set tev = 9.8e-9
+set nbis = 7
+set tev = 19.8e-9
+set ovd = 0.01
+set tclk = 10.05e-9
+set vh = 1.65
+set base = /home/vicente/iclab/comparator/results
 
-foreach vc 800 900 1200 1300 1500 1650 1800
-  shell rm -f vos_bis_vcm_$vc
-  let vcv = $vc/1000
+foreach wn 1 2 5 10 20 
+  set dir = $base/xcn_w$wn
+  set pre = $dir/vos_bis_vcm_
+  shell mkdir -p $dir
+  let wv = $wn*1e-6
 
-  repeat $nruns
-    reset
-    alter Vcm dc = $&vcv
-    set lo = -$vrg
-    set hi = $vrg
+  foreach vc 800 1200 1650 2000
+    shell rm -f $pre$vc
+    let vcv = $vc/1000
 
-    repeat $nbis
-      let midv = (($lo) + ($hi))/2
-      set mid = $&midv
-      let hp = ($mid)/2
-      let hn = -($mid)/2
+    repeat $nruns
+      alterparam w2 = $&wv
+      alterparam w5=0.22*1e-6
+      reset
+      alter Vcm dc = $&vcv
+      set lo = -$vrg
+      set hi = $vrg
+
+      repeat $nbis
+        let midv = (($lo) + ($hi))/2
+        set mid = $&midv
+        let hp = ($mid)/2
+        let hn = -($mid)/2
+        alter Vip dc = $&hp
+        alter Vim dc = $&hn
+        tran 10p $tev
+        let dfin = v(y)[length(v(y))-1] - v(x)[length(v(x))-1]
+        if $&dfin > 0
+          set hi = $mid
+        else
+          set lo = $mid
+        end
+        destroy all
+      end
+
+      let trip = (($lo) + ($hi))/2
+      let oor = abs(trip)/$vrg
+
+      let hp = (trip + $ovd)/2
+      let hn = -(trip + $ovd)/2
       alter Vip dc = $&hp
       alter Vim dc = $&hn
 
       tran 10p $tev
-
-      let dfin = v(y)[length(v(y))-1] - v(x)[length(v(x))-1]
-      if $&dfin > 0
-        set hi = $mid
-      else
-        set lo = $mid
-      end
+      let vmin = (v(x) + v(y) - abs(v(x) - v(y)))/2
+      let isl = (vmin lt $vh)
+      let sel = time*isl + 1000*(1 - isl)
+      let tdel = minimum(sel) - $tclk
+      echo $&trip $&oor $&tdel >> $pre$vc
       destroy all
     end
-
-    let trip = (($lo) + ($hi))/2
-    let oor = abs(trip)/$vrg
-    echo $&trip $&oor >> vos_bis_vcm_$vc
-    destroy all
   end
 end
 .endc

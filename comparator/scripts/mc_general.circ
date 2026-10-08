@@ -1,5 +1,3 @@
-name=s3 only_toplevel=false value="
-.control
 set rndseed = 12345
 set nruns = 200
 set vrg = 0.06
@@ -38,5 +36,3 @@ repeat $nruns
   destroy all
 end
 shell python3 /home/vicente/iclab/comparator/scripts/hist.py vos_bis.txt -o vos_bis_hist.png
-.endc
-"
