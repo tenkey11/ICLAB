@@ -12,7 +12,7 @@ let wnv = 2e-6
 shell mkdir -p $base
 
 * k in hundredths: 0.11 0.25 0.5 1 1.5 2  (0.11 -> PMOS = 0.22u when w2 = 2u)
-foreach kk 11 25 50 100 150 200
+foreach kk 200
   set dir = $base/xcp_k$kk
   set pre = $dir/vos_bis_vcm_
   shell mkdir -p $dir
@@ -27,7 +27,6 @@ foreach kk 11 25 50 100 150 200
       alterparam w2 = $&wnv
       alterparam w5 = $&wpv
       reset
-      
       alter Vcm dc = $&vcv
       set lo = -$vrg
       set hi = $vrg
@@ -41,7 +40,7 @@ foreach kk 11 25 50 100 150 200
         alter Vim dc = $&hn
         tran 10p $tev
         let dfin = v(y)[length(v(y))-1] - v(x)[length(v(x))-1]
-        if ($&dfin > 0)
+        if $&dfin > 0
           set hi = $mid
         else
           set lo = $mid
@@ -56,9 +55,10 @@ foreach kk 11 25 50 100 150 200
       let hn = -(trip + $ovd)/2
       alter Vip dc = $&hp
       alter Vim dc = $&hn
+
       tran 10p $tev
       let vmin = (v(x) + v(y) - abs(v(x) - v(y)))/2
-      let isl = (vmin < $vh)
+      let isl = (vmin lt $vh)
       let sel = time*isl + 1000*(1 - isl)
       let tdel = minimum(sel) - $tclk
       echo $&trip $&oor $&tdel >> $pre$vc

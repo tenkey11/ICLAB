@@ -1,0 +1,1048 @@
+Warning from checkvalid: vector y is not available or has zero length.
+Error: RHS " v(y)[length(v(y))-1] - v(x)[length(v(x))-1]" invalid
+Error: &dfin: no such variable.
+PPerror: syntax error in line segment
+   ( > 0)
+near
+       0)
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector y is not available or has zero length.
+Error: RHS " v(y)[length(v(y))-1] - v(x)[length(v(x))-1]" invalid
+Error: &dfin: no such variable.
+PPerror: syntax error in line segment
+   ( > 0)
+near
+       0)
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector y is not available or has zero length.
+Error: RHS " v(y)[length(v(y))-1] - v(x)[length(v(x))-1]" invalid
+Error: &dfin: no such variable.
+PPerror: syntax error in line segment
+   ( > 0)
+near
+       0)
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector x is not available or has zero length.
+Error: RHS " (v(x) + v(y) - abs(v(x) - v(y)))/2" invalid
+1.65): No such file or directory
+Warning from checkvalid: vector time is not available or has zero length.
+Error: RHS " time*isl + 1000*(1 - isl)" invalid
+Warning from checkvalid: vector sel is not available or has zero length.
+Error: RHS " minimum(sel) - 1.005E-08" invalid
+Error: &tdel: no such variable.
+Error: No internal deck available
+    Command 'alterparam' ignored
+Error: No internal deck available
+    Command 'alterparam' ignored
+Reset re-loads circuit ** sch_path: /home/vicente/iclab/comparator/comparator.sc
+h
+
+Circuit: ** sch_path: /home/vicente/iclab/comparator/comparator.sch
+
+Error on line:
+  m.xm15.m0 net2 y vdd vdd pfet_03v3 ad=    4.356000000000000e-15     as=    4.3
+56000000000000e-15     delvto=    3.763650047468584e-02     l=    2.800000000000
+000e-07     m=    1.000000000000000e+00     mulu0=    1.014723645831627e+00     
+nf=    1.000000000000000e+00     nrd=    7.438016528925620e+00     nrs=    7.438
+016528925620e+00     pd=    4.084000000000000e-07     ps=    4.084000000000000e-
+07     sa=    0.000000000000000e+00     sb=    0.000000000000000e+00     sd=    
+0.000000000000000e+00     w=    2.420000000000000e-08   
+could not find a valid modelname
+Error: no such device or model name vcm
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector y is not available or has zero length.
+Error: RHS " v(y)[length(v(y))-1] - v(x)[length(v(x))-1]" invalid
+Error: &dfin: no such variable.
+PPerror: syntax error in line segment
+   ( > 0)
+near
+       0)
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector y is not available or has zero length.
+Error: RHS " v(y)[length(v(y))-1] - v(x)[length(v(x))-1]" invalid
+Error: &dfin: no such variable.
+PPerror: syntax error in line segment
+   ( > 0)
+near
+       0)
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector y is not available or has zero length.
+Error: RHS " v(y)[length(v(y))-1] - v(x)[length(v(x))-1]" invalid
+Error: &dfin: no such variable.
+PPerror: syntax error in line segment
+   ( > 0)
+near
+       0)
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector y is not available or has zero length.
+Error: RHS " v(y)[length(v(y))-1] - v(x)[length(v(x))-1]" invalid
+Error: &dfin: no such variable.
+PPerror: syntax error in line segment
+   ( > 0)
+near
+       0)
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector y is not available or has zero length.
+Error: RHS " v(y)[length(v(y))-1] - v(x)[length(v(x))-1]" invalid
+Error: &dfin: no such variable.
+PPerror: syntax error in line segment
+   ( > 0)
+near
+       0)
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector y is not available or has zero length.
+Error: RHS " v(y)[length(v(y))-1] - v(x)[length(v(x))-1]" invalid
+Error: &dfin: no such variable.
+PPerror: syntax error in line segment
+   ( > 0)
+near
+       0)
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector y is not available or has zero length.
+Error: RHS " v(y)[length(v(y))-1] - v(x)[length(v(x))-1]" invalid
+Error: &dfin: no such variable.
+PPerror: syntax error in line segment
+   ( > 0)
+near
+       0)
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector x is not available or has zero length.
+Error: RHS " (v(x) + v(y) - abs(v(x) - v(y)))/2" invalid
+1.65): No such file or directory
+Warning from checkvalid: vector time is not available or has zero length.
+Error: RHS " time*isl + 1000*(1 - isl)" invalid
+Warning from checkvalid: vector sel is not available or has zero length.
+Error: RHS " minimum(sel) - 1.005E-08" invalid
+Error: &tdel: no such variable.
+Error: No internal deck available
+    Command 'alterparam' ignored
+Error: No internal deck available
+    Command 'alterparam' ignored
+Reset re-loads circuit ** sch_path: /home/vicente/iclab/comparator/comparator.sc
+h
+
+Circuit: ** sch_path: /home/vicente/iclab/comparator/comparator.sch
+
+Error on line:
+  m.xm15.m0 net2 y vdd vdd pfet_03v3 ad=    4.356000000000000e-15     as=    4.3
+56000000000000e-15     delvto=    3.979961317944541e-02     l=    2.800000000000
+000e-07     m=    1.000000000000000e+00     mulu0=    9.432033996232805e-01     
+nf=    1.000000000000000e+00     nrd=    7.438016528925620e+00     nrs=    7.438
+016528925620e+00     pd=    4.084000000000000e-07     ps=    4.084000000000000e-
+07     sa=    0.000000000000000e+00     sb=    0.000000000000000e+00     sd=    
+0.000000000000000e+00     w=    2.420000000000000e-08   
+could not find a valid modelname
+Error: no such device or model name vcm
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector y is not available or has zero length.
+Error: RHS " v(y)[length(v(y))-1] - v(x)[length(v(x))-1]" invalid
+Error: &dfin: no such variable.
+PPerror: syntax error in line segment
+   ( > 0)
+near
+       0)
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector y is not available or has zero length.
+Error: RHS " v(y)[length(v(y))-1] - v(x)[length(v(x))-1]" invalid
+Error: &dfin: no such variable.
+PPerror: syntax error in line segment
+   ( > 0)
+near
+       0)
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector y is not available or has zero length.
+Error: RHS " v(y)[length(v(y))-1] - v(x)[length(v(x))-1]" invalid
+Error: &dfin: no such variable.
+PPerror: syntax error in line segment
+   ( > 0)
+near
+       0)
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector y is not available or has zero length.
+Error: RHS " v(y)[length(v(y))-1] - v(x)[length(v(x))-1]" invalid
+Error: &dfin: no such variable.
+PPerror: syntax error in line segment
+   ( > 0)
+near
+       0)
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector y is not available or has zero length.
+Error: RHS " v(y)[length(v(y))-1] - v(x)[length(v(x))-1]" invalid
+Error: &dfin: no such variable.
+PPerror: syntax error in line segment
+   ( > 0)
+near
+       0)
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector y is not available or has zero length.
+Error: RHS " v(y)[length(v(y))-1] - v(x)[length(v(x))-1]" invalid
+Error: &dfin: no such variable.
+PPerror: syntax error in line segment
+   ( > 0)
+near
+       0)
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector y is not available or has zero length.
+Error: RHS " v(y)[length(v(y))-1] - v(x)[length(v(x))-1]" invalid
+Error: &dfin: no such variable.
+PPerror: syntax error in line segment
+   ( > 0)
+near
+       0)
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector x is not available or has zero length.
+Error: RHS " (v(x) + v(y) - abs(v(x) - v(y)))/2" invalid
+1.65): No such file or directory
+Warning from checkvalid: vector time is not available or has zero length.
+Error: RHS " time*isl + 1000*(1 - isl)" invalid
+Warning from checkvalid: vector sel is not available or has zero length.
+Error: RHS " minimum(sel) - 1.005E-08" invalid
+Error: &tdel: no such variable.
+Error: No internal deck available
+    Command 'alterparam' ignored
+Error: No internal deck available
+    Command 'alterparam' ignored
+Reset re-loads circuit ** sch_path: /home/vicente/iclab/comparator/comparator.sc
+h
+
+Circuit: ** sch_path: /home/vicente/iclab/comparator/comparator.sch
+
+Error on line:
+  m.xm15.m0 net2 y vdd vdd pfet_03v3 ad=    4.356000000000000e-15     as=    4.3
+56000000000000e-15     delvto=   -1.277843177956842e-02     l=    2.800000000000
+000e-07     m=    1.000000000000000e+00     mulu0=    9.865903250994469e-01     
+nf=    1.000000000000000e+00     nrd=    7.438016528925620e+00     nrs=    7.438
+016528925620e+00     pd=    4.084000000000000e-07     ps=    4.084000000000000e-
+07     sa=    0.000000000000000e+00     sb=    0.000000000000000e+00     sd=    
+0.000000000000000e+00     w=    2.420000000000000e-08   
+could not find a valid modelname
+Error: no such device or model name vcm
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector y is not available or has zero length.
+Error: RHS " v(y)[length(v(y))-1] - v(x)[length(v(x))-1]" invalid
+Error: &dfin: no such variable.
+PPerror: syntax error in line segment
+   ( > 0)
+near
+       0)
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector y is not available or has zero length.
+Error: RHS " v(y)[length(v(y))-1] - v(x)[length(v(x))-1]" invalid
+Error: &dfin: no such variable.
+PPerror: syntax error in line segment
+   ( > 0)
+near
+       0)
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector y is not available or has zero length.
+Error: RHS " v(y)[length(v(y))-1] - v(x)[length(v(x))-1]" invalid
+Error: &dfin: no such variable.
+PPerror: syntax error in line segment
+   ( > 0)
+near
+       0)
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector y is not available or has zero length.
+Error: RHS " v(y)[length(v(y))-1] - v(x)[length(v(x))-1]" invalid
+Error: &dfin: no such variable.
+PPerror: syntax error in line segment
+   ( > 0)
+near
+       0)
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector y is not available or has zero length.
+Error: RHS " v(y)[length(v(y))-1] - v(x)[length(v(x))-1]" invalid
+Error: &dfin: no such variable.
+PPerror: syntax error in line segment
+   ( > 0)
+near
+       0)
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector y is not available or has zero length.
+Error: RHS " v(y)[length(v(y))-1] - v(x)[length(v(x))-1]" invalid
+Error: &dfin: no such variable.
+PPerror: syntax error in line segment
+   ( > 0)
+near
+       0)
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector y is not available or has zero length.
+Error: RHS " v(y)[length(v(y))-1] - v(x)[length(v(x))-1]" invalid
+Error: &dfin: no such variable.
+PPerror: syntax error in line segment
+   ( > 0)
+near
+       0)
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector x is not available or has zero length.
+Error: RHS " (v(x) + v(y) - abs(v(x) - v(y)))/2" invalid
+1.65): No such file or directory
+Warning from checkvalid: vector time is not available or has zero length.
+Error: RHS " time*isl + 1000*(1 - isl)" invalid
+Warning from checkvalid: vector sel is not available or has zero length.
+Error: RHS " minimum(sel) - 1.005E-08" invalid
+Error: &tdel: no such variable.
+Error: No internal deck available
+    Command 'alterparam' ignored
+Error: No internal deck available
+    Command 'alterparam' ignored
+Reset re-loads circuit ** sch_path: /home/vicente/iclab/comparator/comparator.sc
+h
+
+Circuit: ** sch_path: /home/vicente/iclab/comparator/comparator.sch
+
+Error on line:
+  m.xm15.m0 net2 y vdd vdd pfet_03v3 ad=    4.356000000000000e-15     as=    4.3
+56000000000000e-15     delvto=   -1.268134944082199e-02     l=    2.800000000000
+000e-07     m=    1.000000000000000e+00     mulu0=    9.987813875044824e-01     
+nf=    1.000000000000000e+00     nrd=    7.438016528925620e+00     nrs=    7.438
+016528925620e+00     pd=    4.084000000000000e-07     ps=    4.084000000000000e-
+07     sa=    0.000000000000000e+00     sb=    0.000000000000000e+00     sd=    
+0.000000000000000e+00     w=    2.420000000000000e-08   
+could not find a valid modelname
+Error: no such device or model name vcm
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector y is not available or has zero length.
+Error: RHS " v(y)[length(v(y))-1] - v(x)[length(v(x))-1]" invalid
+Error: &dfin: no such variable.
+PPerror: syntax error in line segment
+   ( > 0)
+near
+       0)
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector y is not available or has zero length.
+Error: RHS " v(y)[length(v(y))-1] - v(x)[length(v(x))-1]" invalid
+Error: &dfin: no such variable.
+PPerror: syntax error in line segment
+   ( > 0)
+near
+       0)
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector y is not available or has zero length.
+Error: RHS " v(y)[length(v(y))-1] - v(x)[length(v(x))-1]" invalid
+Error: &dfin: no such variable.
+PPerror: syntax error in line segment
+   ( > 0)
+near
+       0)
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector y is not available or has zero length.
+Error: RHS " v(y)[length(v(y))-1] - v(x)[length(v(x))-1]" invalid
+Error: &dfin: no such variable.
+PPerror: syntax error in line segment
+   ( > 0)
+near
+       0)
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector y is not available or has zero length.
+Error: RHS " v(y)[length(v(y))-1] - v(x)[length(v(x))-1]" invalid
+Error: &dfin: no such variable.
+PPerror: syntax error in line segment
+   ( > 0)
+near
+       0)
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector y is not available or has zero length.
+Error: RHS " v(y)[length(v(y))-1] - v(x)[length(v(x))-1]" invalid
+Error: &dfin: no such variable.
+PPerror: syntax error in line segment
+   ( > 0)
+near
+       0)
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector y is not available or has zero length.
+Error: RHS " v(y)[length(v(y))-1] - v(x)[length(v(x))-1]" invalid
+Error: &dfin: no such variable.
+PPerror: syntax error in line segment
+   ( > 0)
+near
+       0)
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector x is not available or has zero length.
+Error: RHS " (v(x) + v(y) - abs(v(x) - v(y)))/2" invalid
+1.65): No such file or directory
+Warning from checkvalid: vector time is not available or has zero length.
+Error: RHS " time*isl + 1000*(1 - isl)" invalid
+Warning from checkvalid: vector sel is not available or has zero length.
+Error: RHS " minimum(sel) - 1.005E-08" invalid
+Error: &tdel: no such variable.
+Error: No internal deck available
+    Command 'alterparam' ignored
+Error: No internal deck available
+    Command 'alterparam' ignored
+Reset re-loads circuit ** sch_path: /home/vicente/iclab/comparator/comparator.sc
+h
+
+Circuit: ** sch_path: /home/vicente/iclab/comparator/comparator.sch
+
+Error on line:
+  m.xm15.m0 net2 y vdd vdd pfet_03v3 ad=    4.356000000000000e-15     as=    4.3
+56000000000000e-15     delvto=   -1.619563942071061e-02     l=    2.800000000000
+000e-07     m=    1.000000000000000e+00     mulu0=    1.020176389973418e+00     
+nf=    1.000000000000000e+00     nrd=    7.438016528925620e+00     nrs=    7.438
+016528925620e+00     pd=    4.084000000000000e-07     ps=    4.084000000000000e-
+07     sa=    0.000000000000000e+00     sb=    0.000000000000000e+00     sd=    
+0.000000000000000e+00     w=    2.420000000000000e-08   
+could not find a valid modelname
+Error: no such device or model name vcm
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector y is not available or has zero length.
+Error: RHS " v(y)[length(v(y))-1] - v(x)[length(v(x))-1]" invalid
+Error: &dfin: no such variable.
+PPerror: syntax error in line segment
+   ( > 0)
+near
+       0)
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector y is not available or has zero length.
+Error: RHS " v(y)[length(v(y))-1] - v(x)[length(v(x))-1]" invalid
+Error: &dfin: no such variable.
+PPerror: syntax error in line segment
+   ( > 0)
+near
+       0)
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector y is not available or has zero length.
+Error: RHS " v(y)[length(v(y))-1] - v(x)[length(v(x))-1]" invalid
+Error: &dfin: no such variable.
+PPerror: syntax error in line segment
+   ( > 0)
+near
+       0)
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector y is not available or has zero length.
+Error: RHS " v(y)[length(v(y))-1] - v(x)[length(v(x))-1]" invalid
+Error: &dfin: no such variable.
+PPerror: syntax error in line segment
+   ( > 0)
+near
+       0)
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector y is not available or has zero length.
+Error: RHS " v(y)[length(v(y))-1] - v(x)[length(v(x))-1]" invalid
+Error: &dfin: no such variable.
+PPerror: syntax error in line segment
+   ( > 0)
+near
+       0)
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector y is not available or has zero length.
+Error: RHS " v(y)[length(v(y))-1] - v(x)[length(v(x))-1]" invalid
+Error: &dfin: no such variable.
+PPerror: syntax error in line segment
+   ( > 0)
+near
+       0)
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector y is not available or has zero length.
+Error: RHS " v(y)[length(v(y))-1] - v(x)[length(v(x))-1]" invalid
+Error: &dfin: no such variable.
+PPerror: syntax error in line segment
+   ( > 0)
+near
+       0)
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector x is not available or has zero length.
+Error: RHS " (v(x) + v(y) - abs(v(x) - v(y)))/2" invalid
+1.65): No such file or directory
+Warning from checkvalid: vector time is not available or has zero length.
+Error: RHS " time*isl + 1000*(1 - isl)" invalid
+Warning from checkvalid: vector sel is not available or has zero length.
+Error: RHS " minimum(sel) - 1.005E-08" invalid
+Error: &tdel: no such variable.
+Error: No internal deck available
+    Command 'alterparam' ignored
+Error: No internal deck available
+    Command 'alterparam' ignored
+Reset re-loads circuit ** sch_path: /home/vicente/iclab/comparator/comparator.sc
+h
+
+Circuit: ** sch_path: /home/vicente/iclab/comparator/comparator.sch
+
+Error on line:
+  m.xm15.m0 net2 y vdd vdd pfet_03v3 ad=    4.356000000000000e-15     as=    4.3
+56000000000000e-15     delvto=   -3.523579039347369e-02     l=    2.800000000000
+000e-07     m=    1.000000000000000e+00     mulu0=    9.816792433538042e-01     
+nf=    1.000000000000000e+00     nrd=    7.438016528925620e+00     nrs=    7.438
+016528925620e+00     pd=    4.084000000000000e-07     ps=    4.084000000000000e-
+07     sa=    0.000000000000000e+00     sb=    0.000000000000000e+00     sd=    
+0.000000000000000e+00     w=    2.420000000000000e-08   
+could not find a valid modelname
+Error: no such device or model name vcm
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector y is not available or has zero length.
+Error: RHS " v(y)[length(v(y))-1] - v(x)[length(v(x))-1]" invalid
+Error: &dfin: no such variable.
+PPerror: syntax error in line segment
+   ( > 0)
+near
+       0)
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector y is not available or has zero length.
+Error: RHS " v(y)[length(v(y))-1] - v(x)[length(v(x))-1]" invalid
+Error: &dfin: no such variable.
+PPerror: syntax error in line segment
+   ( > 0)
+near
+       0)
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector y is not available or has zero length.
+Error: RHS " v(y)[length(v(y))-1] - v(x)[length(v(x))-1]" invalid
+Error: &dfin: no such variable.
+PPerror: syntax error in line segment
+   ( > 0)
+near
+       0)
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector y is not available or has zero length.
+Error: RHS " v(y)[length(v(y))-1] - v(x)[length(v(x))-1]" invalid
+Error: &dfin: no such variable.
+PPerror: syntax error in line segment
+   ( > 0)
+near
+       0)
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector y is not available or has zero length.
+Error: RHS " v(y)[length(v(y))-1] - v(x)[length(v(x))-1]" invalid
+Error: &dfin: no such variable.
+PPerror: syntax error in line segment
+   ( > 0)
+near
+       0)
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector y is not available or has zero length.
+Error: RHS " v(y)[length(v(y))-1] - v(x)[length(v(x))-1]" invalid
+Error: &dfin: no such variable.
+PPerror: syntax error in line segment
+   ( > 0)
+near
+       0)
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector y is not available or has zero length.
+Error: RHS " v(y)[length(v(y))-1] - v(x)[length(v(x))-1]" invalid
+Error: &dfin: no such variable.
+PPerror: syntax error in line segment
+   ( > 0)
+near
+       0)
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector x is not available or has zero length.
+Error: RHS " (v(x) + v(y) - abs(v(x) - v(y)))/2" invalid
+1.65): No such file or directory
+Warning from checkvalid: vector time is not available or has zero length.
+Error: RHS " time*isl + 1000*(1 - isl)" invalid
+Warning from checkvalid: vector sel is not available or has zero length.
+Error: RHS " minimum(sel) - 1.005E-08" invalid
+Error: &tdel: no such variable.
+Error: No internal deck available
+    Command 'alterparam' ignored
+Error: No internal deck available
+    Command 'alterparam' ignored
+Reset re-loads circuit ** sch_path: /home/vicente/iclab/comparator/comparator.sc
+h
+
+Circuit: ** sch_path: /home/vicente/iclab/comparator/comparator.sch
+
+Error on line:
+  m.xm15.m0 net2 y vdd vdd pfet_03v3 ad=    4.356000000000000e-15     as=    4.3
+56000000000000e-15     delvto=    3.907801848537191e-02     l=    2.800000000000
+000e-07     m=    1.000000000000000e+00     mulu0=    9.985411913208371e-01     
+nf=    1.000000000000000e+00     nrd=    7.438016528925620e+00     nrs=    7.438
+016528925620e+00     pd=    4.084000000000000e-07     ps=    4.084000000000000e-
+07     sa=    0.000000000000000e+00     sb=    0.000000000000000e+00     sd=    
+0.000000000000000e+00     w=    2.420000000000000e-08   
+could not find a valid modelname
+Error: no such device or model name vcm
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector y is not available or has zero length.
+Error: RHS " v(y)[length(v(y))-1] - v(x)[length(v(x))-1]" invalid
+Error: &dfin: no such variable.
+PPerror: syntax error in line segment
+   ( > 0)
+near
+       0)
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector y is not available or has zero length.
+Error: RHS " v(y)[length(v(y))-1] - v(x)[length(v(x))-1]" invalid
+Error: &dfin: no such variable.
+PPerror: syntax error in line segment
+   ( > 0)
+near
+       0)
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector y is not available or has zero length.
+Error: RHS " v(y)[length(v(y))-1] - v(x)[length(v(x))-1]" invalid
+Error: &dfin: no such variable.
+PPerror: syntax error in line segment
+   ( > 0)
+near
+       0)
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector y is not available or has zero length.
+Error: RHS " v(y)[length(v(y))-1] - v(x)[length(v(x))-1]" invalid
+Error: &dfin: no such variable.
+PPerror: syntax error in line segment
+   ( > 0)
+near
+       0)
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector y is not available or has zero length.
+Error: RHS " v(y)[length(v(y))-1] - v(x)[length(v(x))-1]" invalid
+Error: &dfin: no such variable.
+PPerror: syntax error in line segment
+   ( > 0)
+near
+       0)
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector y is not available or has zero length.
+Error: RHS " v(y)[length(v(y))-1] - v(x)[length(v(x))-1]" invalid
+Error: &dfin: no such variable.
+PPerror: syntax error in line segment
+   ( > 0)
+near
+       0)
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector y is not available or has zero length.
+Error: RHS " v(y)[length(v(y))-1] - v(x)[length(v(x))-1]" invalid
+Error: &dfin: no such variable.
+PPerror: syntax error in line segment
+   ( > 0)
+near
+       0)
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector x is not available or has zero length.
+Error: RHS " (v(x) + v(y) - abs(v(x) - v(y)))/2" invalid
+1.65): No such file or directory
+Warning from checkvalid: vector time is not available or has zero length.
+Error: RHS " time*isl + 1000*(1 - isl)" invalid
+Warning from checkvalid: vector sel is not available or has zero length.
+Error: RHS " minimum(sel) - 1.005E-08" invalid
+Error: &tdel: no such variable.
+Error: No internal deck available
+    Command 'alterparam' ignored
+Error: No internal deck available
+    Command 'alterparam' ignored
+Reset re-loads circuit ** sch_path: /home/vicente/iclab/comparator/comparator.sc
+h
+
+Circuit: ** sch_path: /home/vicente/iclab/comparator/comparator.sch
+
+Error on line:
+  m.xm15.m0 net2 y vdd vdd pfet_03v3 ad=    4.356000000000000e-15     as=    4.3
+56000000000000e-15     delvto=    3.039578680630355e-02     l=    2.800000000000
+000e-07     m=    1.000000000000000e+00     mulu0=    9.806368998796081e-01     
+nf=    1.000000000000000e+00     nrd=    7.438016528925620e+00     nrs=    7.438
+016528925620e+00     pd=    4.084000000000000e-07     ps=    4.084000000000000e-
+07     sa=    0.000000000000000e+00     sb=    0.000000000000000e+00     sd=    
+0.000000000000000e+00     w=    2.420000000000000e-08   
+could not find a valid modelname
+Error: no such device or model name vcm
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector y is not available or has zero length.
+Error: RHS " v(y)[length(v(y))-1] - v(x)[length(v(x))-1]" invalid
+Error: &dfin: no such variable.
+PPerror: syntax error in line segment
+   ( > 0)
+near
+       0)
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector y is not available or has zero length.
+Error: RHS " v(y)[length(v(y))-1] - v(x)[length(v(x))-1]" invalid
+Error: &dfin: no such variable.
+PPerror: syntax error in line segment
+   ( > 0)
+near
+       0)
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector y is not available or has zero length.
+Error: RHS " v(y)[length(v(y))-1] - v(x)[length(v(x))-1]" invalid
+Error: &dfin: no such variable.
+PPerror: syntax error in line segment
+   ( > 0)
+near
+       0)
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector y is not available or has zero length.
+Error: RHS " v(y)[length(v(y))-1] - v(x)[length(v(x))-1]" invalid
+Error: &dfin: no such variable.
+PPerror: syntax error in line segment
+   ( > 0)
+near
+       0)
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector y is not available or has zero length.
+Error: RHS " v(y)[length(v(y))-1] - v(x)[length(v(x))-1]" invalid
+Error: &dfin: no such variable.
+PPerror: syntax error in line segment
+   ( > 0)
+near
+       0)
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector y is not available or has zero length.
+Error: RHS " v(y)[length(v(y))-1] - v(x)[length(v(x))-1]" invalid
+Error: &dfin: no such variable.
+PPerror: syntax error in line segment
+   ( > 0)
+near
+       0)
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector y is not available or has zero length.
+Error: RHS " v(y)[length(v(y))-1] - v(x)[length(v(x))-1]" invalid
+Error: &dfin: no such variable.
+PPerror: syntax error in line segment
+   ( > 0)
+near
+       0)
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector x is not available or has zero length.
+Error: RHS " (v(x) + v(y) - abs(v(x) - v(y)))/2" invalid
+1.65): No such file or directory
+Warning from checkvalid: vector time is not available or has zero length.
+Error: RHS " time*isl + 1000*(1 - isl)" invalid
+Warning from checkvalid: vector sel is not available or has zero length.
+Error: RHS " minimum(sel) - 1.005E-08" invalid
+Error: &tdel: no such variable.
+Error: No internal deck available
+    Command 'alterparam' ignored
+Error: No internal deck available
+    Command 'alterparam' ignored
+Reset re-loads circuit ** sch_path: /home/vicente/iclab/comparator/comparator.sc
+h
+Error: stack overflow -- max depth = 256
+
+Circuit: ** sch_path: /home/vicente/iclab/comparator/comparator.sch
+
+Error on line:
+  m.xm15.m0 net2 y vdd vdd pfet_03v3 ad=    4.356000000000000e-15     as=    4.3
+56000000000000e-15     delvto=    2.401083135827445e-02     l=    2.800000000000
+000e-07     m=    1.000000000000000e+00     mulu0=    9.998207647943801e-01     
+nf=    1.000000000000000e+00     nrd=    7.438016528925620e+00     nrs=    7.438
+016528925620e+00     pd=    4.084000000000000e-07     ps=    4.084000000000000e-
+07     sa=    0.000000000000000e+00     sb=    0.000000000000000e+00     sd=    
+0.000000000000000e+00     w=    2.420000000000000e-08   
+could not find a valid modelname
+Error: no such device or model name vcm
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector y is not available or has zero length.
+Error: RHS " v(y)[length(v(y))-1] - v(x)[length(v(x))-1]" invalid
+Error: &dfin: no such variable.
+PPerror: syntax error in line segment
+   ( > 0)
+near
+       0)
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector y is not available or has zero length.
+Error: RHS " v(y)[length(v(y))-1] - v(x)[length(v(x))-1]" invalid
+Error: &dfin: no such variable.
+PPerror: syntax error in line segment
+   ( > 0)
+near
+       0)
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector y is not available or has zero length.
+Error: RHS " v(y)[length(v(y))-1] - v(x)[length(v(x))-1]" invalid
+Error: &dfin: no such variable.
+PPerror: syntax error in line segment
+   ( > 0)
+near
+       0)
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector y is not available or has zero length.
+Error: RHS " v(y)[length(v(y))-1] - v(x)[length(v(x))-1]" invalid
+Error: &dfin: no such variable.
+PPerror: syntax error in line segment
+   ( > 0)
+near
+       0)
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector y is not available or has zero length.
+Error: RHS " v(y)[length(v(y))-1] - v(x)[length(v(x))-1]" invalid
+Error: &dfin: no such variable.
+PPerror: syntax error in line segment
+   ( > 0)
+near
+       0)
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector y is not available or has zero length.
+Error: RHS " v(y)[length(v(y))-1] - v(x)[length(v(x))-1]" invalid
+Error: &dfin: no such variable.
+PPerror: syntax error in line segment
+   ( > 0)
+near
+       0)
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector y is not available or has zero length.
+Error: RHS " v(y)[length(v(y))-1] - v(x)[length(v(x))-1]" invalid
+Error: &dfin: no such variable.
+PPerror: syntax error in line segment
+   ( > 0)
+near
+       0)
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector x is not available or has zero length.
+Error: RHS " (v(x) + v(y) - abs(v(x) - v(y)))/2" invalid
+1.65): No such file or directory
+Warning from checkvalid: vector time is not available or has zero length.
+Error: RHS " time*isl + 1000*(1 - isl)" invalid
+Warning from checkvalid: vector sel is not available or has zero length.
+Error: RHS " minimum(sel) - 1.005E-08" invalid
+Error: &tdel: no such variable.
+Error: No internal deck available
+    Command 'alterparam' ignored
+Error: No internal deck available
+    Command 'alterparam' ignored
+Reset re-loads circuit ** sch_path: /home/vicente/iclab/comparator/comparator.sc
+h
+
+Circuit: ** sch_path: /home/vicente/iclab/comparator/comparator.sch
+
+Error on line:
+  m.xm15.m0 net2 y vdd vdd pfet_03v3 ad=    4.356000000000000e-15     as=    4.3
+56000000000000e-15     delvto=    1.002924428417932e-02     l=    2.800000000000
+000e-07     m=    1.000000000000000e+00     mulu0=    1.018013753212838e+00     
+nf=    1.000000000000000e+00     nrd=    7.438016528925620e+00     nrs=    7.438
+016528925620e+00     pd=    4.084000000000000e-07     ps=    4.084000000000000e-
+07     sa=    0.000000000000000e+00     sb=    0.000000000000000e+00     sd=    
+0.000000000000000e+00     w=    2.420000000000000e-08   
+could not find a valid modelname
+Error: no such device or model name vcm
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector y is not available or has zero length.
+Error: RHS " v(y)[length(v(y))-1] - v(x)[length(v(x))-1]" invalid
+Error: &dfin: no such variable.
+PPerror: syntax error in line segment
+   ( > 0)
+near
+       0)
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector y is not available or has zero length.
+Error: RHS " v(y)[length(v(y))-1] - v(x)[length(v(x))-1]" invalid
+Error: &dfin: no such variable.
+PPerror: syntax error in line segment
+   ( > 0)
+near
+       0)
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector y is not available or has zero length.
+Error: RHS " v(y)[length(v(y))-1] - v(x)[length(v(x))-1]" invalid
+Error: &dfin: no such variable.
+PPerror: syntax error in line segment
+   ( > 0)
+near
+       0)
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector y is not available or has zero length.
+Error: RHS " v(y)[length(v(y))-1] - v(x)[length(v(x))-1]" invalid
+Error: &dfin: no such variable.
+PPerror: syntax error in line segment
+   ( > 0)
+near
+       0)
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector y is not available or has zero length.
+Error: RHS " v(y)[length(v(y))-1] - v(x)[length(v(x))-1]" invalid
+Error: &dfin: no such variable.
+PPerror: syntax error in line segment
+   ( > 0)
+near
+       0)
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector y is not available or has zero length.
+Error: RHS " v(y)[length(v(y))-1] - v(x)[length(v(x))-1]" invalid
+Error: &dfin: no such variable.
+PPerror: syntax error in line segment
+   ( > 0)
+near
+       0)
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector y is not available or has zero length.
+Error: RHS " v(y)[length(v(y))-1] - v(x)[length(v(x))-1]" invalid
+Error: &dfin: no such variable.
+PPerror: syntax error in line segment
+   ( > 0)
+near
+       0)
+Error: no such device or model name vip
+Error: no such device or model name vim
+Error: circuit not parsed.
+Warning from checkvalid: vector x is not available or has zero length.
+Error: RHS " (v(x) + v(y) - abs(v(x) - v(y)))/2" invalid
+1.65): No such file or directory
+Warning from checkvalid: vector time is not available or has zero length.
+Error: RHS " time*isl + 1000*(1 - isl)" invalid
+Warning from checkvalid: vector sel is not available or has zero length.
+Error: RHS " minimum(sel) - 1.005E-08" invalid
+Error: &tdel: no such variable.
+Error: No internal deck available
+    Command 'alterparam' ignored
+Error: No internal deck available
+    Command 'alterparam' ignored
+^C
+Interrupted once . . .
+Warning: clearing control structures
+Warning: error executing during ngspice startup.
+ngspice 1 -> 

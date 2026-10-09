@@ -96,6 +96,13 @@ C {code_shown.sym} 452.5 -25 0 0 {name=s2 only_toplevel=false value="
 .param vr=60m
 .param tstop=\{ncyc_ramp*tper\}
 
+.csparam fclk=\{fclk\}
+.csparam w1=\{w1\}
+.csparam k1=\{w1\}
+.csparam w2=\{w5\}
+.csparam k2=\{k2\}
+.csparam w5=\{w5\}
+
 .param sw_stat_mismatch=1
 .options reltol=1e-6 abstol=1e-14 vntol=1e-9
 "}
@@ -143,7 +150,7 @@ spiceprefix=X
 }
 C {symbols/pfet_03v3.sym} -475 -435 0 1 {name=M4
 L=0.28u
-W=0.22u
+W=\{w5\}
 nf=1
 m=1
 ad="'int((nf+1)/2) * W/nf * 0.18u'"
@@ -185,7 +192,7 @@ spiceprefix=X
 }
 C {symbols/pfet_03v3.sym} -305 -435 0 0 {name=M7
 L=0.28u
-W=0.22u
+W=\{w5\}
 nf=1
 m=1
 ad="'int((nf+1)/2) * W/nf * 0.18u'"
@@ -340,70 +347,14 @@ C {vdd.sym} -750 -905 0 0 {name=l5 lab=VDD}
 C {gnd.sym} -750 -720 3 1 {name=l17 lab=0}
 C {gnd.sym} -750 -690 0 0 {name=l18 lab=0}
 C {lab_pin.sym} -825 -800 0 0 {name=p19 sig_type=std_logic lab=X}
-C {code_shown.sym} 1522.5 -140 0 0 {name=s3 only_toplevel=false value="
+C {code_shown.sym} 1472.5 -20 0 0 {name=s3 only_toplevel=false value="
 .control
-set nruns = 200
-set vrg = 0.06
-set nbis = 7
-set tev = 19.8e-9
-set ovd = 0.01
-set tclk = 10.05e-9
-set vh = 1.65
-set base = /home/vicente/iclab/comparator/results
-
-foreach wn 1 2 5 10 20 
-  set dir = $base/xcn_w$wn
-  set pre = $dir/vos_bis_vcm_
-  shell mkdir -p $dir
-  let wv = $wn*1e-6
-
-  foreach vc 800 1200 1650 2000
-    shell rm -f $pre$vc
-    let vcv = $vc/1000
-
-    repeat $nruns
-      alterparam w2 = $&wv
-      alterparam w5=0.22*1e-6
-      reset
-      alter Vcm dc = $&vcv
-      set lo = -$vrg
-      set hi = $vrg
-
-      repeat $nbis
-        let midv = (($lo) + ($hi))/2
-        set mid = $&midv
-        let hp = ($mid)/2
-        let hn = -($mid)/2
-        alter Vip dc = $&hp
-        alter Vim dc = $&hn
-        tran 10p $tev
-        let dfin = v(y)[length(v(y))-1] - v(x)[length(v(x))-1]
-        if $&dfin > 0
-          set hi = $mid
-        else
-          set lo = $mid
-        end
-        destroy all
-      end
-
-      let trip = (($lo) + ($hi))/2
-      let oor = abs(trip)/$vrg
-
-      let hp = (trip + $ovd)/2
-      let hn = -(trip + $ovd)/2
-      alter Vip dc = $&hp
-      alter Vim dc = $&hn
-
-      tran 10p $tev
-      let vmin = (v(x) + v(y) - abs(v(x) - v(y)))/2
-      let isl = (vmin lt $vh)
-      let sel = time*isl + 1000*(1 - isl)
-      let tdel = minimum(sel) - $tclk
-      echo $&trip $&oor $&tdel >> $pre$vc
-      destroy all
-    end
-  end
-end
+*source /home/vicente/iclab/comparator/scripts/controls/sweep_vcm.cir
+*source /home/vicente/iclab/comparator/scripts/controls/sweep_vcm_wpair.cir
+*source /home/vicente/iclab/comparator/scripts/controls/sweep_vcm_xcwn.cir
+source /home/vicente/iclab/comparator/scripts/controls/sweep_xcwp.cir
+*source /home/vicente/iclab/comparator/scripts/controls/sweep_vcm.cir
+*source /home/vicente/iclab/comparator/scripts/controls/sweep_vcm.cir
 .endc
 "}
 C {symbols/nfet_03v3.sym} -770 -720 0 0 {name=M13
