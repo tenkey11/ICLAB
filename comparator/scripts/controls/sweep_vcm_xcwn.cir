@@ -1,0 +1,63 @@
+*ng_script
+set nruns = 200
+set vrg = 0.06
+set nbis = 7
+set tev = 19.8e-9
+set ovd = 0.01
+set tclk = 10.05e-9
+set vh = 1.65
+set base = /home/vicente/iclab/comparator/results/sweep_vcm_xc_wn
+
+foreach wn 0.5 1 2 5 10 15 20
+  set dir = $base/xcn_w$wn
+  set pre = $dir/vos_bis_vcm_
+  shell mkdir -p $dir
+  let wv = $wn*1e-6
+
+  foreach vc 800 1200 1650 2000 2250
+    shell rm -f $pre$vc
+    let vcv = $vc/1000
+
+    repeat $nruns
+      alterparam w2 = $&wv
+      alterparam w5=0.22*1e-6
+      reset
+      alter Vcm dc = $&vcv
+      set lo = -$vrg
+      set hi = $vrg
+
+      repeat $nbis
+        let midv = (($lo) + ($hi))/2
+        set mid = $&midv
+        let hp = ($mid)/2
+        let hn = -($mid)/2
+        alter Vip dc = $&hp
+        alter Vim dc = $&hn
+        tran 10p $tev
+        let dfin = v(y)[length(v(y))-1] - v(x)[length(v(x))-1]
+        if $&dfin > 0
+          set hi = $mid
+        else
+          set lo = $mid
+        end
+        destroy all
+      end
+
+      let trip = (($lo) + ($hi))/2
+      let oor = abs(trip)/$vrg
+
+      let hp = (trip + $ovd)/2
+      let hn = -(trip + $ovd)/2
+      alter Vip dc = $&hp
+      alter Vim dc = $&hn
+
+      tran 10p $tev
+      let vmin = (v(x) + v(y) - abs(v(x) - v(y)))/2
+      let isl = (vmin lt $vh)
+      let sel = time*isl + 1000*(1 - isl)
+      let tdel = minimum(sel) - $tclk
+      echo $&trip $&oor $&tdel >> $pre$vc
+      destroy all
+    end
+  end
+end

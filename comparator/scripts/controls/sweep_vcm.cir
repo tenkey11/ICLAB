@@ -1,10 +1,19 @@
+*ng_script
 set nruns = 200
 set vrg = 0.06
-set nbis = 10
-set tev = 9.8e-9
+set nbis = 7
+
+let tperv = 1/fclk
+set tev = $&tperv
+echo fclk=$&fclk tev=$tev
+
+set dir = /home/vicente/iclab/comparator/results/sweep_vcm
+set pre = $dir/vos_bis_vcm_
+
+shell mkdir -p $dir
 
 foreach vc 800 900 1200 1300 1500 1650 1800
-  shell rm -f vos_bis_vcm_$vc
+  shell rm -f $pre$vc
   let vcv = $vc/1000
 
   repeat $nruns
@@ -24,7 +33,7 @@ foreach vc 800 900 1200 1300 1500 1650 1800
       tran 10p $tev
 
       let dfin = v(y)[length(v(y))-1] - v(x)[length(v(x))-1]
-      if $&dfin > 0
+      if ($&dfin > 0)
         set hi = $mid
       else
         set lo = $mid
@@ -34,7 +43,7 @@ foreach vc 800 900 1200 1300 1500 1650 1800
 
     let trip = (($lo) + ($hi))/2
     let oor = abs(trip)/$vrg
-    echo $&trip $&oor >> vos_bis_vcm_$vc
+    echo $&trip $&oor >> $pre$vc
     destroy all
   end
 end

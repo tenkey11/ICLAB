@@ -29,7 +29,8 @@ for folder in a.folders:
                      os_m, os_s, td_m, td_s, td_med, tau_m, tau_s])
 
 hdr = ["folder", "Vcm_V", "N", "fail", "vos_mean_mV", "vos_sigma_mV",
-       "delay_mean_ps", "delay_sigma_ps"]
+       "delay_mean_ps", "delay_sigma_ps", "delay_median_ps",
+       "tau_mean_ps", "tau_sigma_ps"]
 print(f"{'folder':<12}{'Vcm':>6}{'N':>5}{'fail':>5}{'vos_s':>8}{'td_mean':>9}{'td_sig':>8}")
 for r in rows:
     print(f"{r[0]:<12}{r[1]:6.2f}{r[2]:5d}{r[3]:5d}{r[5]:8.2f}{r[6]:9.1f}{r[7]:8.1f}")
