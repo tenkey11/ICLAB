@@ -1,0 +1,69 @@
+*ng_script
+set nruns = 200
+set vrg = 0.06
+set nbis = 7
+set tev = 19.8e-9
+set ovd = 0.01
+set tclk = 10.05e-9
+set vh = 1.65
+set wnu = 2
+let wnv = $wnu*1e-6
+set base = /home/vicente/iclab/comparator/results/sweep_xcwp_diff/wn$wnu
+
+shell mkdir -p $base
+
+* k in hundredths of Wp/Wn. With Wn = 0.5u: 44 -> PMOS = 0.22u (minimum), 100 -> 0.5u, 200 -> 1u
+foreach kk 44 100 200 
+  set dir = $base/xcp_k$kk
+  set pre = $dir/vos_bis_vcm_
+  shell mkdir -p $dir
+  let kv = $kk/100
+  let wpv = wnv*kv
+
+  foreach vc 800 1200 1650 2000
+    shell rm -f $pre$vc
+    let vcv = $vc/1000
+
+    repeat $nruns
+      alterparam w2 = $&wnv
+      alterparam w5 = $&wpv
+      reset
+      alter Vcm dc = $&vcv
+      set lo = -$vrg
+      set hi = $vrg
+
+      repeat $nbis
+        let midv = (($lo) + ($hi))/2
+        set mid = $&midv
+        let hp = ($mid)/2
+        let hn = -($mid)/2
+        alter Vip dc = $&hp
+        alter Vim dc = $&hn 
+        tran 10p $tev
+        let dfin = v(y)[length(v(y))-1] - v(x)[length(v(x))-1]
+        if $&dfin > 0
+          set hi = $mid
+        else
+          set lo = $mid
+        end
+        destroy all
+      end
+
+      let trip = (($lo) + ($hi))/2
+      let oor = abs(trip)/$vrg
+
+      let hp = (trip + $ovd)/2
+      let hn = -(trip + $ovd)/2
+      alter Vip dc = $&hp
+      alter Vim dc = $&hn
+
+      tran 10p $tev
+      let dxy = abs(v(x) - v(y))
+      let isl = (dxy gt $vh)
+      let sel = time*isl + 1000*(1 - isl)
+      let tdel = minimum(sel) - $tclk
+      echo $&trip $&oor $&tdel >> $pre$vc
+      destroy all
+    end
+  end
+end

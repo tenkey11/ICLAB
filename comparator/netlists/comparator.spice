@@ -79,6 +79,7 @@ XM13 net3 X 0 0 nfet_03v3 L=0.28u W={w4} nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' 
 *source /home/vicente/iclab/comparator/scripts/controls/sweep_vcm.cir
 *source /home/vicente/iclab/comparator/scripts/controls/sweep_vcm_wpair.cir
 *source /home/vicente/iclab/comparator/scripts/controls/sweep_vcm_xcwn.cir
+*source /home/vicente/iclab/comparator/scripts/controls/sweep_vcm_xcwn_diff.cir
 source /home/vicente/iclab/comparator/scripts/controls/sweep_xcwp.cir
 *source /home/vicente/iclab/comparator/scripts/controls/sweep_vcm.cir
 *source /home/vicente/iclab/comparator/scripts/controls/sweep_vcm.cir

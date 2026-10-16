@@ -1,0 +1,91 @@
+** sch_path: /home/vicente/iclab/comparator/comparator.sch
+**.subckt comparator
+VDD VDD 0 dc {vdd}
+XM1 net1 CK 0 0 nfet_03v3 L=0.28u W={w1*k1} nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0
+XM2 P vip net1 0 nfet_03v3 L=0.28u W={w1} nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0
+XM3 X Y P 0 nfet_03v3 L=0.28u W={w2} nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0
+XM4 X Y VDD VDD pfet_03v3 L=0.28u W={w5} nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0
+XM5 Q vim net1 0 nfet_03v3 L=0.28u W={w1} nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0
+XM6 Y X Q 0 nfet_03v3 L=0.28u W={w2} nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0
+XM7 Y X VDD VDD pfet_03v3 L=0.28u W={w5} nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0
+XM8 X CK VDD VDD pfet_03v3 L=0.28u W={w3} nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0
+XM9 P CK VDD VDD pfet_03v3 L=0.28u W={w3} nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0
+XM10 Y CK VDD VDD pfet_03v3 L=0.28u W={w3} nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0
+XM11 Q CK VDD VDD pfet_03v3 L=0.28u W={w3} nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0
+V1 CK 0 PULSE(0 {vdd} {tper/2} {tr} {tr} {tper/2-tr} {tper})
+Vcm Vcm 0 dc {vcm}
+Vip vip Vcm dc 0
+Vim vim Vcm dc 0
+XM14 net2 Y 0 0 nfet_03v3 L=0.28u W={w4} nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0
+XM15 net2 Y VDD VDD pfet_03v3 L=0.28u W={w4*k2} nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0
+XM12 net3 X VDD VDD pfet_03v3 L=0.28u W={w4*k2} nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0
+XM13 net3 X 0 0 nfet_03v3 L=0.28u W={w4} nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0
+**** begin user architecture code
+
+
+.include /home/vicente/open_pdks/gf180mcu/gf180mcuD/libs.tech/ngspice/design.ngspice
+.lib /home/vicente/open_pdks/gf180mcu/gf180mcuD/libs.tech/ngspice/sm141064.ngspice typical
+.include /home/vicente/iclab/comparator/mm_models.spice
+
+
+
+
+* transistor widths
+.param w1=5u		k1=1 		; input pair and tail
+.param w2=5u		k2=2		; xc inv nmos
+.param w5={w2*k2}			; xc inv pmos
+.param w3=0.22u				; switches
+.param w4=0.22u				; out inv
+
+.param vdd=3.3
+.param vcm={vdd/2}
+.param fclk=50e6
+.param tper={1/fclk}
+.param tr=100p
+.param tdly={tper/2}
+.param ncyc_ramp=150
+.param vr=60m
+.param tstop={ncyc_ramp*tper}
+
+.csparam fclk={fclk}
+.csparam w1={w1}
+.csparam k1={w1}
+.csparam w2={w5}
+.csparam k2={k2}
+.csparam w5={w5}
+
+.param sw_stat_mismatch=1
+.options reltol=1e-6 abstol=1e-14 vntol=1e-9
+
+
+
+
+.control
+*source /home/vicente/iclab/comparator/scripts/controls/sweep_vcm.cir
+*source /home/vicente/iclab/comparator/scripts/controls/sweep_vcm_wpair.cir
+source /home/vicente/iclab/comparator/jobs/wi5_wn10_vc2000.cir
+*source /home/vicente/iclab/comparator/scripts/controls/sweep_xcwp.cir
+*source /home/vicente/iclab/comparator/scripts/controls/sweep_vcm.cir
+*source /home/vicente/iclab/comparator/scripts/controls/sweep_vcm.cir
+.endc
+
+
+**** end user architecture code
+**.ends
+.GLOBAL VDD
+.end

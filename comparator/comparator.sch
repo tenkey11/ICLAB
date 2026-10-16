@@ -352,6 +352,7 @@ C {code_shown.sym} 1472.5 -20 0 0 {name=s3 only_toplevel=false value="
 *source /home/vicente/iclab/comparator/scripts/controls/sweep_vcm.cir
 *source /home/vicente/iclab/comparator/scripts/controls/sweep_vcm_wpair.cir
 *source /home/vicente/iclab/comparator/scripts/controls/sweep_vcm_xcwn.cir
+*source /home/vicente/iclab/comparator/scripts/controls/sweep_vcm_xcwn_diff.cir
 source /home/vicente/iclab/comparator/scripts/controls/sweep_xcwp.cir
 *source /home/vicente/iclab/comparator/scripts/controls/sweep_vcm.cir
 *source /home/vicente/iclab/comparator/scripts/controls/sweep_vcm.cir

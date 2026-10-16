@@ -1,0 +1,45 @@
+** sch_path: /home/vicente/iclab/comparator/pelgrom.sch
+**.subckt pelgrom
+XM1 d1 d1 0 0 nfet_03v3 L={lnn} W={wn} nf={nfn} ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0
+I0 VDD d1 {irefn}
+V1 VDD 0 dc {Vdd}
+XM2 d2 d2 0 0 nfet_03v3 L={lnn} W={wn} nf={nfn} ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0
+I1 VDD d2 {irefn}
+XM3 dp1 dp1 VDD VDD pfet_03v3 L={lpp} W={wp} nf={nfp} ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0
+I2 dp1 0 {irefp}
+XM4 dp2 dp2 VDD VDD pfet_03v3 L={lpp} W={wp} nf={nfp} ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0
+I3 dp2 0 {irefp}
+**** begin user architecture code
+
+
+.include /home/vicente/open_pdks/gf180mcu/gf180mcuD/libs.tech/ngspice/design.ngspice
+.lib /home/vicente/open_pdks/gf180mcu/gf180mcuD/libs.tech/ngspice/sm141064.ngspice typical
+.include /home/vicente/iclab/comparator/mm_models.spice
+
+
+
+
+.param Vdd=3.3
+.param wn=0.22u lnn=0.28u nfn=1 irefn=0.5u
+.param wp=0.22u lpp=0.28u nfp=1 irefp=0.5u
+
+
+.param sw_stat_mismatch=1
+.options reltol=1e-6 abstol=1e-14 vntol=1e-9
+
+
+
+
+.control
+source /home/vicente/iclab/comparator/scripts/pelgrom/pelgrom_mc.cir
+.endc
+
+
+**** end user architecture code
+**.ends
+.GLOBAL VDD
+.end

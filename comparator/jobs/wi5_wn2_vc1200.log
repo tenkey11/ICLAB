@@ -1,0 +1,2823 @@
+Warning: m=xx on .subckt line will override multiplier m hierarchy!
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+Note: Compatibility modes selected: hs a
+
+
+Circuit: ** sch_path: /home/vicente/iclab/comparator/comparator.sch
+
+Reset re-loads circuit ** sch_path: /home/vicente/iclab/comparator/comparator.sch
+
+Circuit: ** sch_path: /home/vicente/iclab/comparator/comparator.sch
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                   1.00286
+ck                                           0
+p                                          3.3
+vip                                        1.2
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                        1.2
+vcm                                        1.2
+net2                               1.82412e-08
+net3                                1.8465e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -3.02392e-11
+
+ Reference value :  5.18280e-09 Reference value :  1.58488e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2067
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                    1.0034
+ck                                           0
+p                                          3.3
+vip                                      1.215
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                      1.185
+vcm                                        1.2
+net2                               1.82412e-08
+net3                                1.8465e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                         -3.0241e-11
+
+ Reference value :  2.84280e-09 Reference value :  9.41280e-09 Reference value :  1.53234e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2067
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                   1.00243
+ck                                           0
+p                                          3.3
+vip                                     1.2075
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                     1.1925
+vcm                                        1.2
+net2                               1.82412e-08
+net3                                1.8465e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -3.02312e-11
+
+ Reference value :  3.92280e-09 Reference value :  9.95280e-09 Reference value :  1.59467e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2074
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                   1.00247
+ck                                           0
+p                                          3.3
+vip                                    1.20375
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                    1.19625
+vcm                                        1.2
+net2                               1.82412e-08
+net3                                1.8465e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -3.02374e-11
+
+ Reference value :  6.02280e-09 Reference value :  1.52263e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2070
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                    1.0024
+ck                                           0
+p                                          3.3
+vip                                    1.20562
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                    1.19437
+vcm                                        1.2
+net2                               1.82412e-08
+net3                                1.8465e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -3.02365e-11
+
+ Reference value :  5.59280e-09 Reference value :  1.17406e-08 Reference value :  1.18506e-08 Reference value :  1.19606e-08 Reference value :  1.20706e-08 Reference value :  1.21806e-08 Reference value :  1.22906e-08 Reference value :  1.24006e-08 Reference value :  1.25106e-08 Reference value :  1.26206e-08 Reference value :  1.27206e-08 Reference value :  1.28306e-08 Reference value :  1.29406e-08 Reference value :  1.30506e-08 Reference value :  1.31606e-08 Reference value :  1.32406e-08 Reference value :  1.33506e-08 Reference value :  1.34506e-08 Reference value :  1.35506e-08 Reference value :  1.36606e-08 Reference value :  1.37706e-08 Reference value :  1.38806e-08 Reference value :  1.39906e-08 Reference value :  1.41006e-08 Reference value :  1.42106e-08 Reference value :  1.65406e-08 Reference value :  1.66506e-08 Reference value :  1.68506e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2074
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                   1.00241
+ck                                           0
+p                                          3.3
+vip                                    1.20656
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                    1.19344
+vcm                                        1.2
+net2                               1.82412e-08
+net3                                1.8465e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -3.02374e-11
+
+ Reference value :  0.00000e+00 Reference value :  7.74280e-09 Reference value :  7.90280e-09 Reference value :  1.30682e-08 Reference value :  1.58382e-08 Reference value :  1.82382e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2075
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                   1.00241
+ck                                           0
+p                                          3.3
+vip                                    1.20703
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                    1.19297
+vcm                                        1.2
+net2                               1.82412e-08
+net3                                1.8465e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -3.02339e-11
+
+ Reference value :  1.80280e-09 Reference value :  5.79280e-09 Reference value :  1.27572e-08 Reference value :  1.36372e-08 Reference value :  1.84872e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2075
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                   1.00241
+ck                                           0
+p                                          3.3
+vip                                     1.2068
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                     1.1932
+vcm                                        1.2
+net2                               1.82412e-08
+net3                                1.8465e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -3.02348e-11
+
+ Reference value :  4.83280e-09 Reference value :  8.65280e-09 Reference value :  1.03639e-08 Reference value :  1.31763e-08 Reference value :  1.73263e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2075
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                   1.00241
+ck                                           0
+p                                          3.3
+vip                                    1.20668
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                    1.19332
+vcm                                        1.2
+net2                               1.82412e-08
+net3                                1.8465e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -3.02383e-11
+
+ Reference value :  3.82800e-10 Reference value :  6.99280e-09 Reference value :  1.00865e-08 Reference value :  1.26592e-08 Reference value :  1.36892e-08 Reference value :  1.76492e-08 Reference value :  1.77692e-08 Reference value :  1.89492e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2075
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                    1.0024
+ck                                           0
+p                                          3.3
+vip                                    1.20662
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                    1.19338
+vcm                                        1.2
+net2                               1.82412e-08
+net3                                1.8465e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -3.02401e-11
+
+ Reference value :  1.00357e-08 Reference value :  1.52188e-08 Reference value :  1.68088e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2075
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                    1.0024
+ck                                           0
+p                                          3.3
+vip                                    1.20659
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                    1.19341
+vcm                                        1.2
+net2                               1.82412e-08
+net3                                1.8465e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -3.02356e-11
+
+ Reference value :  1.81280e-09 Reference value :  5.08280e-09 Reference value :  8.24280e-09 Reference value :  1.19694e-08 Reference value :  1.86394e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2075
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                    1.0024
+ck                                           0
+p                                          3.3
+vip                                    1.20658
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                    1.19342
+vcm                                        1.2
+net2                               1.82412e-08
+net3                                1.8465e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -3.02348e-11
+
+ Reference value :  1.48280e-09 Reference value :  1.01865e-08 Reference value :  1.45802e-08 Reference value :  1.65002e-08 Reference value :  1.74902e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2074
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                   1.00241
+ck                                           0
+p                                          3.3
+vip                                    1.20657
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                    1.19343
+vcm                                        1.2
+net2                               1.82412e-08
+net3                                1.8465e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -3.02392e-11
+
+ Reference value :  6.97280e-09 Reference value :  1.43826e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2074
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                    1.0024
+ck                                           0
+p                                          3.3
+vip                                    1.20662
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                    1.19338
+vcm                                        1.2
+net2                               1.82412e-08
+net3                                1.8465e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -3.02401e-11
+
+ Reference value :  2.88280e-09 Reference value :  7.14280e-09 Reference value :  8.52280e-09 Reference value :  8.68280e-09 Reference value :  1.01499e-08 Reference value :  1.38804e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2074
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                   1.00241
+ck                                           0
+p                                          3.3
+vip                                    1.20707
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                    1.19293
+vcm                                        1.2
+net2                               1.82412e-08
+net3                                1.8465e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                         -3.0233e-11
+
+ Reference value :  0.00000e+00 Reference value :  1.00357e-08 Reference value :  1.48232e-08 Reference value :  1.94532e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2074
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                   1.00278
+ck                                           0
+p                                          3.3
+vip                                    1.21157
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                    1.18843
+vcm                                        1.2
+net2                               1.82412e-08
+net3                                1.8465e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -3.02365e-11
+
+ Reference value :  5.49280e-09 Reference value :  1.12039e-08 Reference value :  1.74739e-08 Reference value :  1.86539e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2067
+Reset re-loads circuit ** sch_path: /home/vicente/iclab/comparator/comparator.sch
+
+Circuit: ** sch_path: /home/vicente/iclab/comparator/comparator.sch
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                   1.00969
+ck                                           0
+p                                          3.3
+vip                                        1.2
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                        1.2
+vcm                                        1.2
+net2                               1.86134e-08
+net3                               1.85135e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -3.01457e-11
+
+ Reference value :  6.79280e-09 Reference value :  1.02852e-08 Reference value :  1.53813e-08 Reference value :  1.80413e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2068
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                   1.01126
+ck                                           0
+p                                          3.3
+vip                                      1.215
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                      1.185
+vcm                                        1.2
+net2                               1.86134e-08
+net3                               1.85135e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                         -3.0152e-11
+
+ Reference value :  5.94280e-09 Reference value :  1.17176e-08 Reference value :  1.79676e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2068
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                   1.00979
+ck                                           0
+p                                          3.3
+vip                                     1.2075
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                     1.1925
+vcm                                        1.2
+net2                               1.86134e-08
+net3                               1.85135e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -3.01484e-11
+
+ Reference value :  5.03280e-09 Reference value :  1.01921e-08 Reference value :  1.55629e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2067
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                   1.00956
+ck                                           0
+p                                          3.3
+vip                                    1.20375
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                    1.19625
+vcm                                        1.2
+net2                               1.86134e-08
+net3                               1.85135e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -3.01431e-11
+
+ Reference value :  3.23280e-09 Reference value :  1.05371e-08 Reference value :  1.43471e-08 Reference value :  1.79571e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2074
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                   1.00957
+ck                                           0
+p                                          3.3
+vip                                    1.20188
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                    1.19812
+vcm                                        1.2
+net2                               1.86134e-08
+net3                               1.85135e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -3.01448e-11
+
+ Reference value :  5.61280e-09 Reference value :  1.18704e-08 Reference value :  1.72704e-08 Reference value :  1.97304e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2073
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                   1.00955
+ck                                           0
+p                                          3.3
+vip                                    1.20281
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                    1.19719
+vcm                                        1.2
+net2                               1.86134e-08
+net3                               1.85135e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                         -3.0144e-11
+
+ Reference value :  6.37280e-09 Reference value :  6.53280e-09 Reference value :  1.01767e-08 Reference value :  1.25623e-08 Reference value :  1.36123e-08 Reference value :  1.44123e-08 Reference value :  1.67823e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2074
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                   1.00956
+ck                                           0
+p                                          3.3
+vip                                    1.20328
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                    1.19672
+vcm                                        1.2
+net2                               1.86134e-08
+net3                               1.85135e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -3.01457e-11
+
+ Reference value :  3.37280e-09 Reference value :  8.00280e-09 Reference value :  1.26371e-08 Reference value :  1.31671e-08 Reference value :  1.90871e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2074
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                   1.00956
+ck                                           0
+p                                          3.3
+vip                                    1.20352
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                    1.19648
+vcm                                        1.2
+net2                               1.86134e-08
+net3                               1.85135e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -3.01475e-11
+
+ Reference value :  2.49280e-09 Reference value :  5.32280e-09 Reference value :  9.26280e-09 Reference value :  1.04263e-08 Reference value :  1.26099e-08 Reference value :  1.64199e-08 Reference value :  1.65299e-08 Reference value :  1.66399e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2074
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                   1.00955
+ck                                           0
+p                                          3.3
+vip                                     1.2034
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                     1.1966
+vcm                                        1.2
+net2                               1.86134e-08
+net3                               1.85135e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -3.01466e-11
+
+ Reference value :  1.32800e-10 Reference value :  8.12800e-10 Reference value :  9.72800e-10 Reference value :  1.13280e-09 Reference value :  9.62280e-09 Reference value :  1.37884e-08 Reference value :  1.83384e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2074
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                   1.00955
+ck                                           0
+p                                          3.3
+vip                                    1.20334
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                    1.19666
+vcm                                        1.2
+net2                               1.86134e-08
+net3                               1.85135e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -3.01475e-11
+
+ Reference value :  2.06280e-09 Reference value :  7.16280e-09 Reference value :  1.11539e-08 Reference value :  1.30639e-08 Reference value :  1.46439e-08 Reference value :  1.96839e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2074
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                   1.00955
+ck                                           0
+p                                          3.3
+vip                                    1.20337
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                    1.19663
+vcm                                        1.2
+net2                               1.86134e-08
+net3                               1.85135e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -3.01448e-11
+
+ Reference value :  9.12800e-10 Reference value :  9.80280e-09 Reference value :  1.60629e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2073
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                   1.00955
+ck                                           0
+p                                          3.3
+vip                                    1.20335
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                    1.19665
+vcm                                        1.2
+net2                               1.86134e-08
+net3                               1.85135e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -3.01493e-11
+
+ Reference value :  1.84280e-09 Reference value :  7.17280e-09 Reference value :  1.12688e-08 Reference value :  1.84188e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2074
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                   1.00956
+ck                                           0
+p                                          3.3
+vip                                    1.20335
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                    1.19665
+vcm                                        1.2
+net2                               1.86134e-08
+net3                               1.85135e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                         -3.0144e-11
+
+ Reference value :  4.93280e-09 Reference value :  1.00592e-08 Reference value :  1.69762e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2074
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                   1.00955
+ck                                           0
+p                                          3.3
+vip                                     1.2034
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                     1.1966
+vcm                                        1.2
+net2                               1.86134e-08
+net3                               1.85135e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -3.01466e-11
+
+ Reference value :  1.09280e-09 Reference value :  5.67280e-09 Reference value :  1.25553e-08 Reference value :  1.65453e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2074
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                   1.00956
+ck                                           0
+p                                          3.3
+vip                                    1.20385
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                    1.19615
+vcm                                        1.2
+net2                               1.86134e-08
+net3                               1.85135e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -3.01457e-11
+
+ Reference value :  1.45280e-09 Reference value :  6.37280e-09 Reference value :  9.96280e-09 Reference value :  1.40672e-08 Reference value :  1.71072e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2074
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                   1.00989
+ck                                           0
+p                                          3.3
+vip                                    1.20835
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                    1.19165
+vcm                                        1.2
+net2                               1.86134e-08
+net3                               1.85135e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -3.01457e-11
+
+ Reference value :  2.76280e-09 Reference value :  9.34280e-09 Reference value :  1.15545e-08 Reference value :  1.88245e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2067
+Reset re-loads circuit ** sch_path: /home/vicente/iclab/comparator/comparator.sch
+
+Circuit: ** sch_path: /home/vicente/iclab/comparator/comparator.sch
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                  0.999625
+ck                                           0
+p                                          3.3
+vip                                        1.2
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                        1.2
+vcm                                        1.2
+net2                               1.82967e-08
+net3                               1.87498e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -3.01462e-11
+
+ Reference value :  6.45280e-09 Reference value :  1.08497e-08 Reference value :  1.62497e-08 Reference value :  1.95997e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2069
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                   1.00076
+ck                                           0
+p                                          3.3
+vip                                      1.185
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                      1.215
+vcm                                        1.2
+net2                               1.82967e-08
+net3                               1.87498e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -3.01418e-11
+
+ Reference value :  8.78280e-09 Reference value :  1.20091e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2068
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                  0.999492
+ck                                           0
+p                                          3.3
+vip                                     1.1925
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                     1.2075
+vcm                                        1.2
+net2                               1.82967e-08
+net3                               1.87498e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                         -3.0144e-11
+
+ Reference value :  6.92800e-10 Reference value :  9.19280e-09 Reference value :  1.41456e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2068
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                  0.999378
+ck                                           0
+p                                          3.3
+vip                                    1.19625
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                    1.20375
+vcm                                        1.2
+net2                               1.82967e-08
+net3                               1.87498e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -3.01467e-11
+
+ Reference value :  0.00000e+00 Reference value :  8.63280e-09 Reference value :  1.01216e-08 Reference value :  1.03330e-08 Reference value :  1.43841e-08 Reference value :  1.92441e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2074
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                   0.99946
+ck                                           0
+p                                          3.3
+vip                                    1.19812
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                    1.20188
+vcm                                        1.2
+net2                               1.82967e-08
+net3                               1.87498e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -3.01409e-11
+
+ Reference value :  6.12280e-09 Reference value :  1.15870e-08 Reference value :  1.79370e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2074
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                  0.999412
+ck                                           0
+p                                          3.3
+vip                                    1.19719
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                    1.20281
+vcm                                        1.2
+net2                               1.82967e-08
+net3                               1.87498e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -3.01409e-11
+
+ Reference value :  6.30280e-09 Reference value :  1.30270e-08 Reference value :  1.31370e-08 Reference value :  1.32470e-08 Reference value :  1.33570e-08 Reference value :  1.38970e-08 Reference value :  1.81370e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2075
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                  0.999392
+ck                                           0
+p                                          3.3
+vip                                    1.19672
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                    1.20328
+vcm                                        1.2
+net2                               1.82967e-08
+net3                               1.87498e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -3.01471e-11
+
+ Reference value :  8.98280e-09 Reference value :  1.01001e-08 Reference value :  1.72117e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2074
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                  0.999391
+ck                                           0
+p                                          3.3
+vip                                    1.19648
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                    1.20352
+vcm                                        1.2
+net2                               1.82967e-08
+net3                               1.87498e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -3.01405e-11
+
+ Reference value :  5.82280e-09 Reference value :  1.24425e-08 Reference value :  1.25525e-08 Reference value :  1.33825e-08 Reference value :  1.61625e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2074
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                  0.999389
+ck                                           0
+p                                          3.3
+vip                                     1.1966
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                     1.2034
+vcm                                        1.2
+net2                               1.82967e-08
+net3                               1.87498e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                         -3.0148e-11
+
+ Reference value :  2.94280e-09 Reference value :  4.78280e-09 Reference value :  5.43280e-09 Reference value :  5.59280e-09 Reference value :  8.43280e-09 Reference value :  1.43479e-08 Reference value :  1.89079e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2074
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                  0.999394
+ck                                           0
+p                                          3.3
+vip                                    1.19666
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                    1.20334
+vcm                                        1.2
+net2                               1.82967e-08
+net3                               1.87498e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -3.01449e-11
+
+ Reference value :  0.00000e+00 Reference value :  8.30280e-09 Reference value :  1.05191e-08 Reference value :  1.66063e-08 Reference value :  1.71363e-08 Reference value :  1.89663e-08 Reference value :  1.90763e-08 Reference value :  1.91863e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2074
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                  0.999391
+ck                                           0
+p                                          3.3
+vip                                    1.19669
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                    1.20331
+vcm                                        1.2
+net2                               1.82967e-08
+net3                               1.87498e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -3.01458e-11
+
+ Reference value :  1.41280e-09 Reference value :  4.84280e-09 Reference value :  5.00280e-09 Reference value :  5.17280e-09 Reference value :  7.32280e-09 Reference value :  8.63280e-09 Reference value :  1.20994e-08 Reference value :  1.37194e-08 Reference value :  1.59394e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2075
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                  0.999391
+ck                                           0
+p                                          3.3
+vip                                    1.19667
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                    1.20333
+vcm                                        1.2
+net2                               1.82967e-08
+net3                               1.87498e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -3.01485e-11
+
+ Reference value :  1.90280e-09 Reference value :  6.42280e-09 Reference value :  1.46444e-08 Reference value :  1.80344e-08 Reference value :  1.94244e-08 Reference value :  1.95344e-08 Reference value :  1.96444e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2074
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                  0.999395
+ck                                           0
+p                                          3.3
+vip                                    1.19668
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                    1.20332
+vcm                                        1.2
+net2                               1.82967e-08
+net3                               1.87498e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -3.01427e-11
+
+ Reference value :  5.15280e-09 Reference value :  1.00927e-08 Reference value :  1.35646e-08 Reference value :  1.65946e-08 Reference value :  1.96546e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2074
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                  0.999393
+ck                                           0
+p                                          3.3
+vip                                    1.19674
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                    1.20326
+vcm                                        1.2
+net2                               1.82967e-08
+net3                               1.87498e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -3.01489e-11
+
+ Reference value :  2.54280e-09 Reference value :  1.04531e-08 Reference value :  1.04955e-08 Reference value :  1.12006e-08 Reference value :  1.35606e-08 Reference value :  1.69506e-08 Reference value :  1.89706e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2074
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                  0.999406
+ck                                           0
+p                                          3.3
+vip                                    1.19719
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                    1.20281
+vcm                                        1.2
+net2                               1.82967e-08
+net3                               1.87498e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -3.01471e-11
+
+ Reference value :  2.28280e-09 Reference value :  7.16280e-09 Reference value :  9.14280e-09 Reference value :  1.02089e-08 Reference value :  1.51770e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2075
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                  0.999853
+ck                                           0
+p                                          3.3
+vip                                    1.20169
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                    1.19831
+vcm                                        1.2
+net2                               1.82967e-08
+net3                               1.87498e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -3.01436e-11
+
+ Reference value :  2.39280e-09 Reference value :  1.16251e-08 Reference value :  1.39051e-08 Reference value :  1.68351e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2067
+Reset re-loads circuit ** sch_path: /home/vicente/iclab/comparator/comparator.sch
+
+Circuit: ** sch_path: /home/vicente/iclab/comparator/comparator.sch
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                   1.00576
+ck                                           0
+p                                          3.3
+vip                                        1.2
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                        1.2
+vcm                                        1.2
+net2                               1.86957e-08
+net3                               1.78179e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -3.02605e-11
+
+ Reference value :  1.89280e-09 Reference value :  4.47280e-09 Reference value :  7.07280e-09 Reference value :  1.15012e-08 Reference value :  1.39912e-08 Reference value :  1.62112e-08 Reference value :  1.67612e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2073
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                   1.00879
+ck                                           0
+p                                          3.3
+vip                                      1.215
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                      1.185
+vcm                                        1.2
+net2                               1.86957e-08
+net3                               1.78179e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -3.02654e-11
+
+ Reference value :  2.45280e-09 Reference value :  6.22280e-09 Reference value :  1.02195e-08 Reference value :  1.41825e-08 Reference value :  1.97625e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2068
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                    1.0066
+ck                                           0
+p                                          3.3
+vip                                     1.2075
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                     1.1925
+vcm                                        1.2
+net2                               1.86957e-08
+net3                               1.78179e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -3.02565e-11
+
+ Reference value :  6.82280e-09 Reference value :  7.48280e-09 Reference value :  1.05988e-08 Reference value :  1.51288e-08 Reference value :  1.76888e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2067
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                   1.00599
+ck                                           0
+p                                          3.3
+vip                                    1.20375
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                    1.19625
+vcm                                        1.2
+net2                               1.86957e-08
+net3                               1.78179e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -3.02596e-11
+
+ Reference value :  7.36280e-09 Reference value :  1.00224e-08 Reference value :  1.00834e-08 Reference value :  1.53378e-08 Reference value :  1.54478e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2068
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                   1.00582
+ck                                           0
+p                                          3.3
+vip                                    1.20188
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                    1.19812
+vcm                                        1.2
+net2                               1.86957e-08
+net3                               1.78179e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -3.02578e-11
+
+ Reference value :  4.00280e-09 Reference value :  1.25053e-08 Reference value :  1.57053e-08 Reference value :  1.67953e-08 Reference value :  1.81953e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2072
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                   1.00577
+ck                                           0
+p                                          3.3
+vip                                    1.20094
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                    1.19906
+vcm                                        1.2
+net2                               1.86957e-08
+net3                               1.78179e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                         -3.0256e-11
+
+ Reference value :  1.21280e-09 Reference value :  1.03080e-08 Reference value :  1.20527e-08 Reference value :  1.21627e-08 Reference value :  1.22627e-08 Reference value :  1.23727e-08 Reference value :  1.24827e-08 Reference value :  1.25827e-08 Reference value :  1.26927e-08 Reference value :  1.28027e-08 Reference value :  1.29127e-08 Reference value :  1.30227e-08 Reference value :  1.31327e-08 Reference value :  1.32427e-08 Reference value :  1.33527e-08 Reference value :  1.34627e-08 Reference value :  1.35727e-08 Reference value :  1.36827e-08 Reference value :  1.37927e-08 Reference value :  1.38927e-08 Reference value :  1.40027e-08 Reference value :  1.41127e-08 Reference value :  1.42227e-08 Reference value :  1.43327e-08 Reference value :  1.44427e-08 Reference value :  1.45427e-08 Reference value :  1.46527e-08 Reference value :  1.47627e-08 Reference value :  1.48727e-08 Reference value :  1.49827e-08 Reference value :  1.50927e-08 Reference value :  1.52027e-08 Reference value :  1.53127e-08 Reference value :  1.54227e-08 Reference value :  1.55327e-08 Reference value :  1.56427e-08 Reference value :  1.57527e-08 Reference value :  1.58627e-08 Reference value :  1.59727e-08 Reference value :  1.70227e-08Using SPARSE 1.3 as Direct Linear Solver
+Note: Starting dynamic gmin stepping
+Warning: Dynamic gmin stepping failed
+Note: Starting true gmin stepping
+Warning: True gmin stepping failed
+Note: Starting source stepping
+Warning: source stepping failed
+Note: Transient op started
+Note: Transient op finished successfully
+
+No. of Data Rows : 2073
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                  0.936676
+ck                                           0
+p                                          3.3
+vip                                    1.20047
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                    1.19953
+vcm                                        1.2
+net2                              -1.84628e-08
+net3                               -1.5276e-08
+vim#branch                         4.65633e-09
+vip#branch                         4.87253e-09
+vcm#branch                         9.52885e-09
+v1#branch                          2.27029e-08
+vdd#branch                         1.54036e-07
+
+ Reference value :  0.00000e+00 Reference value :  1.00434e-08 Reference value :  1.57792e-08 Reference value :  1.58892e-08 Reference value :  1.59992e-08 Reference value :  1.61092e-08 Reference value :  1.62092e-08 Reference value :  1.62992e-08 Reference value :  1.66792e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2073
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                  0.985957
+ck                                           0
+p                                          3.3
+vip                                    1.20023
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                    1.19977
+vcm                                        1.2
+net2                               1.86957e-08
+net3                               1.78179e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -1.13334e-10
+
+ Reference value :  0.00000e+00 Reference value :  1.03709e-08 Reference value :  1.82382e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2074
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                  0.985955
+ck                                           0
+p                                          3.3
+vip                                    1.20012
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                    1.19988
+vcm                                        1.2
+net2                               1.86957e-08
+net3                               1.78179e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -1.13331e-10
+
+ Reference value :  9.48280e-09 Reference value :  1.51413e-08 Reference value :  1.52513e-08 Reference value :  1.54713e-08 Reference value :  1.84813e-08 Reference value :  1.97713e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2073
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                  0.985952
+ck                                           0
+p                                          3.3
+vip                                    1.20006
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                    1.19994
+vcm                                        1.2
+net2                               1.86957e-08
+net3                               1.78179e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -1.13337e-10
+
+ Reference value :  4.57280e-09 Reference value :  9.48280e-09 Reference value :  1.03321e-08 Reference value :  1.86808e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2073
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                  0.985954
+ck                                           0
+p                                          3.3
+vip                                    1.20003
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                    1.19997
+vcm                                        1.2
+net2                               1.86957e-08
+net3                               1.78179e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -1.13332e-10
+
+ Reference value :  8.50280e-09 Reference value :  1.22737e-08 Reference value :  1.41837e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2074
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                  0.985953
+ck                                           0
+p                                          3.3
+vip                                    1.20001
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                    1.19999
+vcm                                        1.2
+net2                               1.86957e-08
+net3                               1.78179e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -1.13332e-10
+
+ Reference value :  4.62800e-10 Reference value :  6.22800e-10 Reference value :  6.97280e-09 Reference value :  1.57777e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2074
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                  0.985953
+ck                                           0
+p                                          3.3
+vip                                    1.20002
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                    1.19998
+vcm                                        1.2
+net2                               1.86957e-08
+net3                               1.78179e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                         -1.1333e-10
+
+ Reference value :  5.89280e-09 Reference value :  1.14705e-08 Reference value :  1.33405e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2073
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                  0.985953
+ck                                           0
+p                                          3.3
+vip                                    1.20008
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                    1.19992
+vcm                                        1.2
+net2                               1.86957e-08
+net3                               1.78179e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -1.13334e-10
+
+ Reference value :  3.71280e-09 Reference value :  1.11644e-08 Reference value :  1.48844e-08 Reference value :  1.53044e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2073
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                  0.985966
+ck                                           0
+p                                          3.3
+vip                                    1.20053
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                    1.19947
+vcm                                        1.2
+net2                               1.86957e-08
+net3                               1.78179e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -1.13331e-10
+
+ Reference value :  0.00000e+00 Reference value :  6.82800e-10 Reference value :  3.17280e-09 Reference value :  6.46280e-09 Reference value :  1.07254e-08 Reference value :  1.08354e-08 Reference value :  1.58654e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2074
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                   0.98637
+ck                                           0
+p                                          3.3
+vip                                    1.20503
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                    1.19497
+vcm                                        1.2
+net2                               1.86957e-08
+net3                               1.78179e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -1.13336e-10
+
+ Reference value :  2.92280e-09 Reference value :  1.10080e-08 Reference value :  1.71880e-08 Reference value :  1.83280e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2067
+Reset re-loads circuit ** sch_path: /home/vicente/iclab/comparator/comparator.sch
+
+Circuit: ** sch_path: /home/vicente/iclab/comparator/comparator.sch
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                    1.0061
+ck                                           0
+p                                          3.3
+vip                                        1.2
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                        1.2
+vcm                                        1.2
+net2                               1.87741e-08
+net3                               1.79972e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -3.01329e-11
+
+ Reference value :  2.32800e-10 Reference value :  4.59280e-09 Reference value :  6.00280e-09 Reference value :  8.21280e-09 Reference value :  1.23230e-08 Reference value :  1.86930e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2074
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                   1.00931
+ck                                           0
+p                                          3.3
+vip                                      1.215
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                      1.185
+vcm                                        1.2
+net2                               1.87741e-08
+net3                               1.79972e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                          -3.014e-11
+
+ Reference value :  1.01000e-08 Reference value :  1.05955e-08 Reference value :  1.18955e-08 Reference value :  1.47855e-08 Reference value :  1.74855e-08 Reference value :  1.83855e-08 Reference value :  1.95955e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2068
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                   1.00705
+ck                                           0
+p                                          3.3
+vip                                     1.2075
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                     1.1925
+vcm                                        1.2
+net2                               1.87741e-08
+net3                               1.79972e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -3.01334e-11
+
+ Reference value :  1.01000e-08 Reference value :  1.73355e-08 Reference value :  1.97355e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2067
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                    1.0064
+ck                                           0
+p                                          3.3
+vip                                    1.20375
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                    1.19625
+vcm                                        1.2
+net2                               1.87741e-08
+net3                               1.79972e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -3.01352e-11
+
+ Reference value :  6.65280e-09 Reference value :  1.30904e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2070
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                   1.00621
+ck                                           0
+p                                          3.3
+vip                                    1.20188
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                    1.19812
+vcm                                        1.2
+net2                               1.87741e-08
+net3                               1.79972e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                         -3.0132e-11
+
+ Reference value :  4.92800e-10 Reference value :  2.99280e-09 Reference value :  6.91280e-09 Reference value :  1.02434e-08 Reference value :  1.48450e-08 Reference value :  1.49550e-08 Reference value :  1.58050e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2074
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                   1.00615
+ck                                           0
+p                                          3.3
+vip                                    1.20094
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                    1.19906
+vcm                                        1.2
+net2                               1.87741e-08
+net3                               1.79972e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -3.01329e-11
+
+ Reference value :  4.21280e-09 Reference value :  5.57280e-09 Reference value :  1.00329e-08 Reference value :  1.00925e-08 Reference value :  1.02586e-08 Reference value :  1.53698e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2076
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                   1.00617
+ck                                           0
+p                                          3.3
+vip                                    1.20141
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                    1.19859
+vcm                                        1.2
+net2                               1.87741e-08
+net3                               1.79972e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -3.01338e-11
+
+ Reference value :  2.63280e-09 Reference value :  4.49280e-09 Reference value :  5.96280e-09 Reference value :  1.01503e-08 Reference value :  1.44266e-08 Reference value :  1.87166e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2075
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                   1.00616
+ck                                           0
+p                                          3.3
+vip                                    1.20117
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                    1.19883
+vcm                                        1.2
+net2                               1.87741e-08
+net3                               1.79972e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -3.01352e-11
+
+ Reference value :  2.02800e-10 Reference value :  1.62280e-09 Reference value :  2.43280e-09 Reference value :  1.03905e-08 Reference value :  1.32312e-08 Reference value :  1.33412e-08 Reference value :  1.90112e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2074
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                   1.00615
+ck                                           0
+p                                          3.3
+vip                                    1.20105
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                    1.19895
+vcm                                        1.2
+net2                               1.87741e-08
+net3                               1.79972e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -3.01352e-11
+
+ Reference value :  7.42280e-09 Reference value :  1.32616e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2074
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                   1.00616
+ck                                           0
+p                                          3.3
+vip                                    1.20111
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                    1.19889
+vcm                                        1.2
+net2                               1.87741e-08
+net3                               1.79972e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -3.01298e-11
+
+ Reference value :  4.72800e-10 Reference value :  9.38280e-09 Reference value :  1.48317e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2074
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                   1.00615
+ck                                           0
+p                                          3.3
+vip                                    1.20108
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                    1.19892
+vcm                                        1.2
+net2                               1.87741e-08
+net3                               1.79972e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -3.01352e-11
+
+ Reference value :  4.36280e-09 Reference value :  1.27817e-08 Reference value :  1.35017e-08 Reference value :  1.50517e-08 Reference value :  1.74817e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2074
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                   1.00615
+ck                                           0
+p                                          3.3
+vip                                     1.2011
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                     1.1989
+vcm                                        1.2
+net2                               1.87741e-08
+net3                               1.79972e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -3.01325e-11
+
+ Reference value :  4.16280e-09 Reference value :  1.17140e-08 Reference value :  1.72540e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2074
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                   1.00615
+ck                                           0
+p                                          3.3
+vip                                    1.20109
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                    1.19891
+vcm                                        1.2
+net2                               1.87741e-08
+net3                               1.79972e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -3.01338e-11
+
+ Reference value :  6.51280e-09 Reference value :  1.52331e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2074
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                   1.00616
+ck                                           0
+p                                          3.3
+vip                                    1.20114
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                    1.19886
+vcm                                        1.2
+net2                               1.87741e-08
+net3                               1.79972e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -3.01369e-11
+
+ Reference value :  1.67280e-09 Reference value :  1.01337e-08 Reference value :  1.70241e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2074
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                   1.00619
+ck                                           0
+p                                          3.3
+vip                                    1.20159
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                    1.19841
+vcm                                        1.2
+net2                               1.87741e-08
+net3                               1.79972e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                         -3.0136e-11
+
+ Reference value :  0.00000e+00 Reference value :  4.97280e-09 Reference value :  1.00329e-08 Reference value :  1.58983e-08 Reference value :  1.94883e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2075
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                   1.00677
+ck                                           0
+p                                          3.3
+vip                                    1.20609
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                    1.19391
+vcm                                        1.2
+net2                               1.87741e-08
+net3                               1.79972e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -3.01396e-11
+
+ Reference value :  4.39280e-09 Reference value :  1.00241e-08 Reference value :  1.30328e-08 Reference value :  1.92828e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2067
+Reset re-loads circuit ** sch_path: /home/vicente/iclab/comparator/comparator.sch
+
+Circuit: ** sch_path: /home/vicente/iclab/comparator/comparator.sch
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                   1.01259
+ck                                           0
+p                                          3.3
+vip                                        1.2
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                        1.2
+vcm                                        1.2
+net2                               1.83907e-08
+net3                                1.8417e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                         -3.0105e-11
+
+ Reference value :  7.35280e-09 Reference value :  1.44542e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2067
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                   1.01254
+ck                                           0
+p                                          3.3
+vip                                      1.215
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                      1.185
+vcm                                        1.2
+net2                               1.83907e-08
+net3                                1.8417e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -3.01077e-11
+
+ Reference value :  2.49280e-09 Reference value :  7.33280e-09 Reference value :  1.51441e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2067
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                   1.01185
+ck                                           0
+p                                          3.3
+vip                                     1.2075
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                     1.1925
+vcm                                        1.2
+net2                               1.83907e-08
+net3                                1.8417e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -3.00997e-11
+
+ Reference value :  2.62280e-09 Reference value :  1.04833e-08 Reference value :  1.67393e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2075
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                   1.01205
+ck                                           0
+p                                          3.3
+vip                                    1.20375
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                    1.19625
+vcm                                        1.2
+net2                               1.83907e-08
+net3                                1.8417e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -3.01006e-11
+
+ Reference value :  4.00000e-13 Reference value :  9.12800e-10 Reference value :  1.08280e-09 Reference value :  5.95280e-09 Reference value :  9.53280e-09 Reference value :  1.40137e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2068
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                   1.01191
+ck                                           0
+p                                          3.3
+vip                                    1.20562
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                    1.19437
+vcm                                        1.2
+net2                               1.83907e-08
+net3                                1.8417e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -3.01006e-11
+
+ Reference value :  9.32800e-10 Reference value :  9.13280e-09 Reference value :  1.27758e-08 Reference value :  1.54758e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2072
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                   1.01187
+ck                                           0
+p                                          3.3
+vip                                    1.20656
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                    1.19344
+vcm                                        1.2
+net2                               1.83907e-08
+net3                                1.8417e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -3.01068e-11
+
+ Reference value :  4.37280e-09 Reference value :  1.04264e-08 Reference value :  1.42764e-08 Reference value :  1.78864e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2074
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                   1.01186
+ck                                           0
+p                                          3.3
+vip                                    1.20703
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                    1.19297
+vcm                                        1.2
+net2                               1.83907e-08
+net3                                1.8417e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -3.01042e-11
+
+ Reference value :  6.91280e-09 Reference value :  1.36874e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2075
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                   1.01186
+ck                                           0
+p                                          3.3
+vip                                    1.20727
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                    1.19273
+vcm                                        1.2
+net2                               1.83907e-08
+net3                                1.8417e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -3.00988e-11
+
+ Reference value :  1.60280e-09 Reference value :  1.01749e-08 Reference value :  1.57778e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2075
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                   1.01185
+ck                                           0
+p                                          3.3
+vip                                    1.20738
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                    1.19262
+vcm                                        1.2
+net2                               1.83907e-08
+net3                                1.8417e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -3.01024e-11
+
+ Reference value :  1.69280e-09 Reference value :  1.00419e-08 Reference value :  1.38658e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2074
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                   1.01186
+ck                                           0
+p                                          3.3
+vip                                    1.20744
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                    1.19256
+vcm                                        1.2
+net2                               1.83907e-08
+net3                                1.8417e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -3.00988e-11
+
+ Reference value :  0.00000e+00 Reference value :  9.51280e-09 Reference value :  1.43569e-08 Reference value :  1.95469e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2074
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                   1.01185
+ck                                           0
+p                                          3.3
+vip                                    1.20741
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                    1.19259
+vcm                                        1.2
+net2                               1.83907e-08
+net3                                1.8417e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -3.01024e-11
+
+ Reference value :  4.59280e-09 Reference value :  1.08762e-08 Reference value :  1.92162e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2074
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                   1.01186
+ck                                           0
+p                                          3.3
+vip                                    1.20743
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                    1.19257
+vcm                                        1.2
+net2                               1.83907e-08
+net3                                1.8417e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -3.00997e-11
+
+ Reference value :  9.34280e-09 Reference value :  1.50723e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2074
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                   1.01186
+ck                                           0
+p                                          3.3
+vip                                    1.20743
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                    1.19257
+vcm                                        1.2
+net2                               1.83907e-08
+net3                                1.8417e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -3.01015e-11
+
+ Reference value :  2.38280e-09 Reference value :  9.28280e-09 Reference value :  1.41945e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2074
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                   1.01186
+ck                                           0
+p                                          3.3
+vip                                    1.20748
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                    1.19252
+vcm                                        1.2
+net2                               1.83907e-08
+net3                                1.8417e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -3.01042e-11
+
+ Reference value :  5.92800e-10 Reference value :  8.65280e-09 Reference value :  1.25100e-08 Reference value :  1.26200e-08 Reference value :  1.46400e-08 Reference value :  1.70700e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2074
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                   1.01185
+ck                                           0
+p                                          3.3
+vip                                    1.20793
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                    1.19207
+vcm                                        1.2
+net2                               1.83907e-08
+net3                                1.8417e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -3.01042e-11
+
+ Reference value :  4.29280e-09 Reference value :  1.02577e-08 Reference value :  1.65064e-08Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 2075
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vdd                                        3.3
+net1                                   1.01214
+ck                                           0
+p                                          3.3
+vip                                    1.21243
+x                                          3.3
+y                                          3.3
+q                                          3.3
+vim                                    1.18757
+vcm                                        1.2
+net2                               1.83907e-08
+net3                                1.8417e-08
+vim#branch                                   0
+vip#branch                                   0
+vcm#branch                                   0
+v1#branch                                    0
+vdd#branch                        -3.01024e-11
+
+ Reference value :  1.53280e-09

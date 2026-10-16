@@ -1,0 +1,38 @@
+*ng_script
+set nruns = 300
+set lu = 0.28
+set jn = 0.5e-6
+set jp = 0.5e-6
+set vddv = 3.3
+set base = /home/vicente/iclab/comparator/results/pelgrom
+
+let lv = $lu*1e-6
+alterparam lnn = $&lv
+alterparam lpp = $&lv
+
+foreach nfu 1 2 4
+  shell mkdir -p $base/l$lu/nf$nfu
+  let nfv = $nfu
+  alterparam nfn = $&nfv
+  alterparam nfp = $&nfv
+  foreach wu 2 5 10 20
+    let wv = $wu*1e-6
+    let ibn = $jn*$wu/$lu
+    let ibp = $jp*$wu/$lu
+    alterparam wn = $&wv
+    alterparam wp = $&wv
+    alterparam irefn = $&ibn
+    alterparam irefp = $&ibp
+    shell rm -f $base/l$lu/nf$nfu/w$wu
+    repeat $nruns
+      reset
+      op
+      let dvn = v(d1) - v(d2)
+      let dvp = v(dp1) - v(dp2)
+      let vgn = v(d1)
+      let vgp = $vddv - v(dp1)
+      echo $&dvn $&vgn $&dvp $&vgp >> $base/l$lu/nf$nfu/w$wu
+    end
+  end
+end
+quit
