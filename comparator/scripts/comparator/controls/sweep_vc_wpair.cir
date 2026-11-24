@@ -1,0 +1,75 @@
+*ng_script
+set nruns = 200
+set vrg = 0.06
+set nbis = 13
+set ovd = 0.01                    $ overdrive above the trip point [V]
+set tev = 19.8e-9                 $ stop before CK falls
+set tclk = 10.05e-9               $ CK crosses VDD/2
+set vh = 0.66               $ differential threshold = 20% of VDD
+
+alterparam w2=0.22u
+alterparam w3=0.22u
+alterparam w4=0.22u
+
+set dir = /home/vicente/iclab/comparator/results/comparator/sweep_vcm_win
+
+foreach wu 5u 
+  alterparam w1 = $wu
+  set dirw = $dir/w1_$wu
+  set pre = $dirw/vos_bis_vcm_
+
+  set suf = _$wu
+  shell mkdir -p $dirw$suf
+
+  foreach vc 1000 1050 1100 1150 1200 1250 1300 1350 1400 1450 1500 1550 1600 1650 1700 1750 1800 1850 1900 1950 2000 2050 2100 2150 2200 2250 2300
+    shell rm -f $pre$vc
+    let vcv = $vc/1000
+
+    repeat $nruns
+      reset
+      alter Vcm dc = $&vcv
+      set lo = -$vrg
+      set hi = $vrg
+
+      repeat $nbis
+        let midv = (($lo) + ($hi))/2
+        set mid = $&midv
+        let hp = ($mid)/2
+        let hn = -($mid)/2
+        alter Vip dc = $&hp
+        alter Vim dc = $&hn
+
+        tran 10p $tev
+
+        let dfin = v(y)[length(v(y))-1] - v(x)[length(v(x))-1]
+        if ($&dfin > 0)
+          set hi = $mid
+        else
+          set lo = $mid
+        end
+        destroy all
+      end
+
+      let trip = (($lo) + ($hi))/2
+      let oor = abs(trip)/$vrg
+      set trs = $&trip
+      set oos = $&oor
+
+      let ddv = ($trs) + $ovd
+      let hp = ddv/2
+      let hn = -ddv/2
+      alter Vip dc = $&hp
+      alter Vim dc = $&hn
+
+      tran 10p $tev
+      let dxy = abs(v(x) - v(y))
+      let isl = (dxy gt $vh)
+      let sel = time*isl + 1000*(1 - isl)
+      let tdel = minimum(sel) - $tclk
+      set suf = _$wu
+      echo $trs $oos $&tdel >> $pre$vc
+      destroy all
+    end
+  end
+end
+quit

@@ -1,0 +1,28 @@
+*ng_script
+set dir = /home/vicente/iclab/comparator/results/comparator/imax
+set fout = $dir/imax_vs_vcm_w1.txt
+shell mkdir -p $dir
+shell rm -f $fout
+echo "# vcm  w1  Imax_A  (XM18 vds >= vdsat)" > $fout
+
+alterparam wtail=5u
+alterparam wck=5u
+
+foreach wu 5u 10u 20u
+    alterparam w1=$wu
+    alterparam vcm=1.65
+    let cur_imirr = 30u
+    let max_imirr = 0
+    while cur_imirr le 500u
+        alterparam Imirr=$&cur_imirr
+        reset
+        op
+        let vds   = @m.xm18.m0[vds]
+        let vdsat = @m.xm18.m0[vdsat]
+        if vds ge vdsat + 0.05
+            let max_imirr = cur_imirr
+        end
+        let cur_imirr = cur_imirr + 1u
+    end
+    echo "$wu $&max_imirr" >> $fout
+end

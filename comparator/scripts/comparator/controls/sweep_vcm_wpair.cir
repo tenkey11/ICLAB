@@ -1,0 +1,85 @@
+*ng_script
+set nruns = 200
+set vrg = 0.06
+set nbis = 13
+set ovd = 0.01                    $ overdrive above the trip point [V]
+set tev = 4e-9                    $ stop before CK falls
+set tclk = 1.05e-9               $ CK crosses VDD/2
+set vh = 0.66               $ differential threshold = 20% of VDD
+
+set dir = /home/vicente/iclab/comparator/results/comparator/sweep_vcm_tail_replica
+shell mkdir -p $dir
+
+foreach wu 20u 
+  alterparam Imirr = 200u
+  alterparam w1 = $wu
+  alterparam w2 = 0.44u
+  alterparam w5 = 0.44u
+  alterparam nf2 = 1
+  alterparam wck = 5u
+  alterparam wtail = 5u
+
+  alterparam ltail = 0.28u 
+  alterparam lck = 0.28u
+
+  alterparam k=1
+
+  set dirw = $dir/$wu
+  set pre = $dirw/vos_bis_vcm_
+  set dirw = $dir/$wus
+  set pre = $dirw/vos_bis_vcm_
+  shell mkdir -p $dirw
+
+  foreach vc 1000  1100  1200  1300  1400  1500  1600  1700  1800  1900  2000  2100  2200  2300  
+    shell rm -f $pre$vc
+    let vcv = $vc/1000
+
+    repeat $nruns
+      reset
+      alter Vcm dc = $&vcv
+      set lo = -$vrg
+      set hi = $vrg
+
+      repeat $nbis
+        let midv = (($lo) + ($hi))/2
+        set mid = $&midv
+        let hp = ($mid)/2
+        let hn = -($mid)/2
+       
+        alter Vip dc = $&hp
+        alter Vim dc = $&hn
+
+        tran 10p $tev
+
+        let dfin = v(y)[length(v(y))-1] - v(x)[length(v(x))-1]
+        if ($&dfin > 0)
+          set hi = $mid
+        else
+          set lo = $mid
+        end
+        destroy all
+      end
+
+      let trip = (($lo) + ($hi))/2
+      let oor = abs(trip)/$vrg
+      set trs = $&trip
+      set oos = $&oor
+
+      let ddv = ($trs) + $ovd
+      let hp = ddv/2
+      let hn = -ddv/2
+      alter Vip dc = $&hp
+      alter Vim dc = $&hn
+
+        tran 10p $tev
+        meas tran tck when v(ck)=1.65 rise=1
+        let dxy = abs(v(x) - v(y))
+        let isl = (dxy gt $vh)
+        let sel = time*isl + 1000*(1 - isl)
+        let tdel = minimum(sel) - tck
+        echo $trs $oos $&tdel >> $pre$vc
+      destroy all
+    end
+  end
+end
+quit

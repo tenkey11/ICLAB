@@ -1,18 +1,25 @@
 *ng_script
 set nruns = 200
 set vrg = 0.06
-set nbis = 7
+set nbis = 13
+set ovd = 0.01                    $ overdrive above the trip point [V]
+set tev = 19.8e-9                 $ stop before CK falls
+set tclk = 10.05e-9               $ CK crosses VDD/2
+set vh = 1.65                     $ differential threshold = VDD/2
 
-let tperv = 1/fclk
-set tev = $&tperv
-echo fclk=$&fclk tev=$tev
+alterparam w1=10u
+alterparam w2=0.22u
+alterparam w3=0.22u
+alterparam w4=0.22u
+alterparam wtail=5u
+alterparam wck=5u
+alterparam Imirr = 350u
 
-set dir = /home/vicente/iclab/comparator/results/sweep_vcm
+set dir = /home/vicente/iclab/comparator/results/comparator/sweep_vcm_tail_switched
 set pre = $dir/vos_bis_vcm_
-
 shell mkdir -p $dir
 
-foreach vc 800 900 1200 1300 1500 1650 1800
+foreach vc 800 1200 1650 2000 2250
   shell rm -f $pre$vc
   let vcv = $vc/1000
 
@@ -43,7 +50,22 @@ foreach vc 800 900 1200 1300 1500 1650 1800
 
     let trip = (($lo) + ($hi))/2
     let oor = abs(trip)/$vrg
-    echo $&trip $&oor >> $pre$vc
+    set trs = $&trip
+    set oos = $&oor
+
+    let ddv = ($trs) + $ovd
+    let hp = ddv/2
+    let hn = -ddv/2
+    alter Vip dc = $&hp
+    alter Vim dc = $&hn
+
+    tran 10p $tev
+    let dxy = abs(v(x) - v(y))
+    let isl = (dxy gt $vh)
+    let sel = time*isl + 1000*(1 - isl)
+    let tdel = minimum(sel) - $tclk
+    echo $trs $oos $&tdel >> $pre$vc
     destroy all
   end
 end
+quit
